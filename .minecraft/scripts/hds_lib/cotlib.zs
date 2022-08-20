@@ -235,7 +235,19 @@ static plainItemIDs as string[] = [
     "aspect_reaction_vessel_blue_square",
     "aspect_reaction_vessel_yellow_rhombus",
     "aspect_reaction_vessel_red_rhombus",
-    "aspect_reaction_vessel_blue_rhombus"
+    "aspect_reaction_vessel_blue_rhombus",
+    "flesh_fiber",
+    "clean_weave_silk",
+    "tenacity_weave_silk",
+    "humility_weave_silk",
+    "honesty_weave_silk",
+    "compassion_weave_silk",
+    "valor_weave_silk",
+    "justice_weave_silk",
+    "sacrifice_weave_silk",
+    "honor_weave_silk",
+    "spirituality_weave_silk",
+    "secret_arts_ingot"
 ];
 
 static plainBlockIDs as string[] = [
