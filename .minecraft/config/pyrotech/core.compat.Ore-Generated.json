@@ -35,6 +35,14 @@
         "libvulpes:productnugget:9",
         "magneticraft:nuggets:7",
         "thermalfoundation:material:196"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreArdite": {
@@ -44,6 +52,14 @@
       ],
       "output": [
         "tconstruct:nuggets:1"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreCobalt": {
@@ -57,6 +73,14 @@
         "contenttweaker:material_part:330",
         "magneticraft:nuggets:4",
         "tconstruct:nuggets:0"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreCopper": {
@@ -81,6 +105,14 @@
         "mekanism:nugget:5",
         "thaumcraft:nugget:1",
         "thermalfoundation:material:192"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreGold": {
@@ -92,6 +124,14 @@
       "output": [
         "contenttweaker:material_part:135",
         "minecraft:gold_nugget:0"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreIridium": {
@@ -105,6 +145,14 @@
         "contenttweaker:material_part:837",
         "libvulpes:productnugget:10",
         "thermalfoundation:material:199"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreIron": {
@@ -118,6 +166,14 @@
         "contenttweaker:material_part:252",
         "minecraft:iron_nugget:0",
         "thaumcraft:nugget:0"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreLead": {
@@ -136,6 +192,14 @@
         "magneticraft:nuggets:3",
         "thaumcraft:nugget:4",
         "thermalfoundation:material:195"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreMithril": {
@@ -146,6 +210,14 @@
       "output": [
         "magneticraft:nuggets:9",
         "thermalfoundation:material:200"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreNickel": {
@@ -163,6 +235,14 @@
         "factorytech:ore_dust:5",
         "magneticraft:nuggets:10",
         "thermalfoundation:material:197"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreOsmium": {
@@ -176,6 +256,14 @@
         "contenttweaker:material_part:369",
         "magneticraft:nuggets:11",
         "mekanism:nugget:1"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "orePlatinum": {
@@ -186,6 +274,14 @@
       "output": [
         "agricraft:agri_nugget:10",
         "thermalfoundation:material:198"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreSilver": {
@@ -203,6 +299,14 @@
         "magneticraft:nuggets:12",
         "thaumcraft:nugget:3",
         "thermalfoundation:material:194"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreTin": {
@@ -224,6 +328,14 @@
         "mekanism:nugget:6",
         "thaumcraft:nugget:2",
         "thermalfoundation:material:193"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     }
   }

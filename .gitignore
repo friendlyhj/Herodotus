@@ -23,6 +23,7 @@
 /.minecraft/config/enderio/painter_paint_sources_user.xml
 !/.minecraft/config/growthcraft/*.cfg
 
+/.minecraft/config/BiomeTweaker/output/
 /.minecraft/config/tellme/*
 /.minecraft/config/jei/worldSettings.cfg
 /.minecraft/config/jei/bookmarks.ini
