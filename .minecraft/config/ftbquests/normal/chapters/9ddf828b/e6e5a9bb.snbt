@@ -4,6 +4,9 @@
 	dependencies: [
 		"b90c7cf3"
 	],
+	text: [
+		"{hot_air_boiler.description}"
+	],
 	tasks: [{
 		uid: "eb664155",
 		type: "item",
