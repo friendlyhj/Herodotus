@@ -1,6 +1,6 @@
 {
   "path": "mod_botania/plants/botania_gray_plant.json",
-  "enabled": false,
+  "enabled": true,
   "id": "botania:gray_flower_plant",
   "plant_name": "Mystical Gray Flower",
   "seed_name": "Mystical Gray Seeds",
@@ -26,7 +26,7 @@
         "min": 1,
         "max": 4,
         "chance": 1.0,
-        "required": false,
+        "required": true,
         "item": "botania:petal",
         "meta": 7,
         "tags": "",

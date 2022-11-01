@@ -1,13 +1,13 @@
 {
   "path": "mod_botania/plants/botania_pink_plant.json",
-  "enabled": false,
+  "enabled": true,
   "id": "botania:pink_flower_plant",
   "plant_name": "Mystical Pink Flower",
   "seed_name": "Mystical Pink Seeds",
   "seed_items": [],
   "description": {
     "translations": {},
-    "default": "A falsely beautiful flower, emanating the throes of a powerful primal force."
+    "default": "A truely beautiful flower, emanating the throes of a powerful primal force."
   },
   "growth_chance": 0.75,
   "growth_bonus": 0.025,

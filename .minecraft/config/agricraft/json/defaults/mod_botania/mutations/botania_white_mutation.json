@@ -1,6 +1,6 @@
 {
   "path": "mod_botania/mutations/botania_white_mutation.json",
-  "enabled": false,
+  "enabled": true,
   "chance": 0.5,
   "child": "botania:white_flower_plant",
   "parent1": "wheat_plant",

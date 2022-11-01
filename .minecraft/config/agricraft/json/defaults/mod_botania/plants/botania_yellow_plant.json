@@ -1,6 +1,6 @@
 {
   "path": "mod_botania/plants/botania_yellow_plant.json",
-  "enabled": false,
+  "enabled": true,
   "id": "botania:yellow_flower_plant",
   "plant_name": "Mystical Yellow Flower",
   "seed_name": "Mystical Yellow Seeds",
@@ -26,7 +26,7 @@
         "min": 1,
         "max": 4,
         "chance": 1.0,
-        "required": false,
+        "required": true,
         "item": "botania:petal",
         "meta": 4,
         "tags": "",
