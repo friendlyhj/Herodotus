@@ -377,6 +377,8 @@ herodotus.quests.f8989a37.text.1=Why is such a thing called a "seed"? So plant i
 herodotus.quests.f8989a37.text.2=Maybe it's not fit to bury it into soil. Should it be planted like some kinds of mushroom? 
 herodotus.quests.f8989a37.text.3=Whoa! What a magic!
 
+herodotus.quests.e6e5a9bb.text.1=Replace any one of the Corrugate Iron Machine Blocks upon Fluid Input with a Infinite Water Upraade Module to make the machine not consume water.
+
 # Ore Processing Chapter
 herodotus.quests.657d9db3.title=Ore Processing
 herodotus.quests.0ef6c3e6.title=Yellow Oreveins
@@ -388,4 +390,4 @@ herodotus.quests.bd826b1a.text.1=Red Ores spawn with Rhombus Ores.
 
 herodotus.quests.2250867c.title=food
 herodotus.quests.8d9933a0.title=chiselBlock
-herodotus.quests.c9f1480d.title=Hidden Chapterherodotus.quests.e6e5a9bb.text.1={hot_air_boiler.description}
+herodotus.quests.c9f1480d.title=Hidden Chapter

@@ -1,6 +1,6 @@
 {
   "path": "mod_botania/soils/podzol_soil.json",
-  "enabled": false,
+  "enabled": true,
   "id": "podzol_soil",
   "name": "podzol",
   "varients": [

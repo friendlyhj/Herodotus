@@ -379,6 +379,8 @@ herodotus.quests.f8989a37.text.1=这东西为什么叫种子啊?总得种在什�
 herodotus.quests.f8989a37.text.2=看这样子埋在土里恐怕不行, 这东西是不是像蘑菇一样种在原木上的?
 herodotus.quests.f8989a37.text.3=嚯! 好家伙! 
 
+herodotus.quests.e6e5a9bb.text.1=用无限水升级组件替换流体输入仓上方任意一波纹铁质机械方块让机器不消耗水
+
 # Ore Processing Chapter
 herodotus.quests.657d9db3.title=矿物处理
 herodotus.quests.0ef6c3e6.title=黄色矿脉
@@ -390,4 +392,4 @@ herodotus.quests.bd826b1a.text.1=红色矿石与方形矿石伴生。
 
 herodotus.quests.2250867c.title=food
 herodotus.quests.8d9933a0.title=chiselBlock
-herodotus.quests.c9f1480d.title=隐藏任务herodotus.quests.e6e5a9bb.text.1={hot_air_boiler.description}
+herodotus.quests.c9f1480d.title=隐藏任务
