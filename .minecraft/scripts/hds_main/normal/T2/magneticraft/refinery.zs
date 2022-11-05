@@ -8,7 +8,7 @@ import scripts.hds_main.utils.modloader.isInvalid;
 
 if(!isInvalid){
 Refinery.removeRecipe(<liquid:steam>);
-Refinery.removeRecipe(<liquid:hot_crude>);
+
 
 Refinery.addRecipe(<liquid:steam> * 10, <liquid:distilledwater>, null, null, 2);
 }
