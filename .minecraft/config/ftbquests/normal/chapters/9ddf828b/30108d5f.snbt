@@ -11,11 +11,7 @@
 		items: [{
 			id: "agricraft:agri_seed",
 			tag: {
-				agri_analyzed: 0b,
-				agri_strength: 1b,
-				agri_gain: 1b,
-				agri_seed: "herodotus_slime_grass",
-				agri_growth: 1b
+				agri_seed: "herodotus_slime_grass"
 			}
 		}]
 	}]
