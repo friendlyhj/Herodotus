@@ -21,11 +21,11 @@ customization {
 customization {
   path = resources/mainmenu/credits_text.png
   orientation = mid-centered
-  x = -207
-  width = 415
+  x = -220
+  width = 444
   actionid = 9d5f6cb8-f9fd-4c9a-9266-cb17b31ed3871643014531333
   action = addtexture
-  y = -119
-  height = 239
+  y = -125
+  height = 256
 }
 
