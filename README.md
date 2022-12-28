@@ -3,7 +3,7 @@
     <a herf="https://github.com/ProjectHDS/Herodotus/network/members"> <img src="https://img.shields.io/github/forks/ProjectHDS/Herodotus?color=red&logo=github&style=flat-square"></a>
     <a herf="https://github.com/ProjectHDS/Herodotus/stargazers"> <img src="https://img.shields.io/github/stars/ProjectHDS/Herodotus?logo=github&style=flat-square"></a>
     <a herf="https://github.com/ProjectHDS/Herodotus/blob/master/LICENSE"> <img src="https://img.shields.io/github/license/ProjectHDS/Herodotus?color=green&logo=github&style=flat-square"></a>
-    <a herf="https://github.com/ProjectHDS/Herodotus/actions/workflows/TestRunner.yml"> <img src="https://img.shields.io/github/workflow/status/dtolnay/inventory/CI/master?logo=github&style=flat-square""></a>
+    <a herf="https://github.com/ProjectHDS/Herodotus/actions/workflows/TestRunner.yml"> <img src="https://img.shields.io/github/actions/workflow/status/ProjectHDS/Herodotus/dev.yml?branch=develop&logo=github&style=flat-square""></a>
 </div><br>
 
 <div align="center">
