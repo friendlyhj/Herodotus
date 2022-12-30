@@ -19,7 +19,7 @@ Casting.addBasinRecipe(<contenttweaker:static_molten_plastic>, <contenttweaker:s
 Casting.addTableRecipe(<factorytech:ingot:6>, <tconstruct:cast_custom>, <liquid:molten_river_copper>, 144, false, 2 * 20);
 Casting.addTableRecipe(<factorytech:ingot:7>, <tconstruct:cast_custom>, <liquid:molten_river_nickel>, 144, false, 2 * 20);
 Casting.addTableRecipe(<factorytech:ingot:5>, <tconstruct:cast_custom>, <liquid:molten_river_iron>, 144, false, 2 * 20);
-Casting.addTableRecipe(<tconstruct:cast_custom>, <pyrotech:material:16>, <liquid:alubrass>, 144, true, 4 * 20);
+Casting.addTableRecipe(<tconstruct:cast_custom>, <pyrotech:material:16>, <liquid:aluminium_brass>, 144, true, 4 * 20);
 Casting.removeTableRecipe(<tconstruct:materials>);
 Casting.removeBasinRecipe(<tconstruct:seared_glass>);
 Casting.removeBasinRecipe(<tconstruct:seared_furnace_controller>);

@@ -20,7 +20,7 @@ RecipeBuilder.get("basic")
 
 RecipeBuilder.get("basic")
     .setShaped([
-	    [<pyrotech:stone_bricks>, <pyrotech:stone_bricks>, <pyrotech:stone_bricks>],
+	    [<pyrotech:masonry_brick_block>, <pyrotech:masonry_brick_block>, <pyrotech:masonry_brick_block>],
 	    [<ore:plankWood>, <pyrotech:worktable>, <ore:plankWood>],
 	    [<ore:logWood>, <pyrotech:stash>, <ore:logWood>]])
     .setFluid(<liquid:limewater>*1000)

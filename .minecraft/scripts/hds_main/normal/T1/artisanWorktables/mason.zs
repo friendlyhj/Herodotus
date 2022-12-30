@@ -10,7 +10,7 @@ if(!isInvalid){
 
 val ptm as IItemStack = <pyrotech:material>;
 val ptm5 as IItemStack = <pyrotech:material:5>;
-val ptb as IItemStack = <pyrotech:stone_bricks>;
+val ptb as IItemStack = <pyrotech:masonry_brick_block>;
 val ptm16 as IItemStack = <pyrotech:material:16>;
 val coal as IIngredient = <ore:pieceCoal>;
 
@@ -151,8 +151,8 @@ RecipeBuilder.get("mason")
 RecipeBuilder.get("mason")
   .setShaped([
     [<pyrotech:material:12>, <pyrotech:material:12>, <pyrotech:material:12>],
-    [<pyrotech:stone_bricks>, ptm5, <pyrotech:stone_bricks>],
-    [ptm5, <pyrotech:stone_bricks>, ptm5]])
+    [<pyrotech:masonry_brick_block>, ptm5, <pyrotech:masonry_brick_block>],
+    [ptm5, <pyrotech:masonry_brick_block>, ptm5]])
   .addTool(<ore:artisansTrowel>, 10)
   .setFluid(<liquid:limewater>*1000)
   .addOutput(<artisanworkstumps:stone_basin>)

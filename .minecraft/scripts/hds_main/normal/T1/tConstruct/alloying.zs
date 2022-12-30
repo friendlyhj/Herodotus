@@ -9,5 +9,5 @@ import scripts.hds_main.utils.modloader.isInvalid;
 
 if(!isInvalid){
 
-Alloy.removeRecipe(<liquid:alubrass>);
+Alloy.removeRecipe(<liquid:aluminium_brass>);
 }

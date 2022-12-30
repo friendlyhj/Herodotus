@@ -8,5 +8,5 @@ import scripts.hds_main.utils.modloader.isInvalid;
 
 if(!isInvalid){
 
-CrushingTable.addRecipe(<ore:plasticGray>, <emergingtechnology:shreddedplastic>);
+CrushingTable.addRecipe(<pneumaticcraft:plastic:8>, <emergingtechnology:shreddedplastic>);
 }
