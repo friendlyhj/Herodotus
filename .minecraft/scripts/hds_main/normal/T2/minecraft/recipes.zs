@@ -22,11 +22,12 @@ RecipeUtils.recipeTweak(true, <storagenetwork:kabel> * 8, [
 	[<ore:plasticGray>, <ore:plasticGray>, <ore:plasticGray>]
 ]);
 
-RecipeUtils.recipeTweak(true, <storagenetwork:remote:3>, [
-	[<ore:plasticGreen>, <ore:dustAstralStarmetal>, <ore:plasticGreen>],
-	[<ore:plasticGray>, <tconstruct:clear_glass>, <ore:plasticGray>],
-	[<ore:plasticGreen>, <ore:plasticGray>, <ore:plasticGreen>]
-]);
+// TODO: Astral Sorcery mod removed, new recipe needed
+// RecipeUtils.recipeTweak(true, <storagenetwork:remote:3>, [
+// 	[<ore:plasticGreen>, <ore:dustAstralStarmetal>, <ore:plasticGreen>],
+// 	[<ore:plasticGray>, <tconstruct:clear_glass>, <ore:plasticGray>],
+// 	[<ore:plasticGreen>, <ore:plasticGray>, <ore:plasticGreen>]
+// ]);
 
 RecipeUtils.recipeTweak(true, <pneumaticcraft:speed_upgrade>, 
 	createCrossWithCore(<liquid:lubricant> * 1000, <ore:lightPlateLead>, <ore:listAllsugar>)
@@ -52,11 +53,12 @@ RecipeUtils.recipeTweak(true, <factorytech:sluice>, [
 	[<ore:lightPlateIron>, <ore:lightPlateIron>, <ore:lightPlateIron>]
 ]);
 
-RecipeUtils.recipeTweak(true, <magneticraft:crushing_table>, [
-	[<astralsorcery:blockmarbleslab>, <astralsorcery:blockmarbleslab>, <astralsorcery:blockmarbleslab>],
-	[<pyrotech:material:23>, <ore:logWood>, <pyrotech:material:23>],
-	[<ore:logWood>, <ore:logWood>, <ore:logWood>]
-]);
+// TODO: Astral Sorcery mod removed, new recipe needed
+// RecipeUtils.recipeTweak(true, <magneticraft:crushing_table>, [
+// 	[<astralsorcery:blockmarbleslab>, <astralsorcery:blockmarbleslab>, <astralsorcery:blockmarbleslab>],
+// 	[<pyrotech:material:23>, <ore:logWood>, <pyrotech:material:23>],
+// 	[<ore:logWood>, <ore:logWood>, <ore:logWood>]
+// ]);
 
 RecipeUtils.recipeTweak(true, <pneumaticcraft:gps_tool>, [
 	[null, <minecraft:redstone_torch>, null],

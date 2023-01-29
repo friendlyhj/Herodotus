@@ -25,7 +25,7 @@ val removeByOutput as IItemStack[] = [
     <prodigytech:solderer>,
     <prodigytech:ferramic_gear>,
     <prodigytech:wormhole_linker>,
-    <astralsorcery:itemjournal>,
+    // <astralsorcery:itemjournal>,
     <advancedrocketry:platepress>,
     <prodigytech:energion_dust>,
     <pyrotech:material:9>,
@@ -112,8 +112,8 @@ val removeByRecipeName as string[] = [
     "minecraft:jungle_planks",
     "minecraft:stick",
     "pyrotech:crafting_table",
-    "growthcraft_apples:stick",
-    "astralsorcery:shaped/altar_tier_1"
+    "growthcraft_apples:stick"
+    // "astralsorcery:shaped/altar_tier_1"
 ];
 
 val removeByModid as string[] = [

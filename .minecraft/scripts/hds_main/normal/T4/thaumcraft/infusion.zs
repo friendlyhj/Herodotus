@@ -9,38 +9,39 @@ import scripts.grassUtils.StringHelper.toUpperCamelCase;
 
 
 if (!isInvalid) {
-    Infusion.registerRecipe("rock_crystal", "", crtlib.asRockCrystalGetter(), 5,
-        [
-            <aspect:vitreus> * 300,
-            <aspect:lux> * 50,
-            <aspect:victus> * 50,
-            <aspect:perditio> * 100
-        ],
-        <ore:oreGlass>,
-        [
-            <ore:gemChippedGlimmerite>, <ore:gemChippedGlimmerite>, <ore:gemChippedGlimmerite>, <ore:gemChippedGlimmerite>,
-            <ore:gemChippedGlimmerite>, <ore:gemChippedGlimmerite>, <ore:gemChippedGlimmerite>, <ore:gemChippedGlimmerite>,
-            <ore:gemFlawedGlimmerite>, <ore:gemFlawedGlimmerite>, <ore:gemFlawedGlimmerite>, <ore:gemFlawedGlimmerite>,
-            <ore:gemFlawlessGlimmerite>, <ore:gemFlawlessGlimmerite>
-    ]);
+    // Infusion.registerRecipe("rock_crystal", "", crtlib.asRockCrystalGetter(), 5,
+    //     [
+    //         <aspect:vitreus> * 300,
+    //         <aspect:lux> * 50,
+    //         <aspect:victus> * 50,
+    //         <aspect:perditio> * 100
+    //     ],
+    //     <ore:oreGlass>,
+    //     [
+    //         <ore:gemChippedGlimmerite>, <ore:gemChippedGlimmerite>, <ore:gemChippedGlimmerite>, <ore:gemChippedGlimmerite>,
+    //         <ore:gemChippedGlimmerite>, <ore:gemChippedGlimmerite>, <ore:gemChippedGlimmerite>, <ore:gemChippedGlimmerite>,
+    //         <ore:gemFlawedGlimmerite>, <ore:gemFlawedGlimmerite>, <ore:gemFlawedGlimmerite>, <ore:gemFlawedGlimmerite>,
+    //         <ore:gemFlawlessGlimmerite>, <ore:gemFlawlessGlimmerite>
+    // ]);
 
-    for shape in crtlib.shapes {
-        Infusion.registerRecipe("primo_shape_" ~ shape, "", itemUtils.getItem("contenttweaker:primordial_" ~ shape), 5,
-        [
-            <aspect:aqua> * 200,
-            <aspect:permutatio> * 80,
-            <aspect:praecantatio> * 60,
-            <aspect:auram> * 80,
-            <aspect:alkimia> * 60
-        ],
-        crtlib.asRockCrystalGetter(),
-        [
-            oreDict.get(shape ~ "TierTwoBlue"),
-            oreDict.get(shape ~ "TierTwoYellow"),
-            oreDict.get(shape ~ "TierTwoRed"),
-            <contenttweaker:primordial_pearl_dust>
-        ]);
-    }
+    // TODO: Astral Sorcery mod removed, new recipe needed
+    // for shape in crtlib.shapes {
+    //     Infusion.registerRecipe("primo_shape_" ~ shape, "", itemUtils.getItem("contenttweaker:primordial_" ~ shape), 5,
+    //     [
+    //         <aspect:aqua> * 200,
+    //         <aspect:permutatio> * 80,
+    //         <aspect:praecantatio> * 60,
+    //         <aspect:auram> * 80,
+    //         <aspect:alkimia> * 60
+    //     ],
+    //     crtlib.asRockCrystalGetter(),
+    //     [
+    //         oreDict.get(shape ~ "TierTwoBlue"),
+    //         oreDict.get(shape ~ "TierTwoYellow"),
+    //         oreDict.get(shape ~ "TierTwoRed"),
+    //         <contenttweaker:primordial_pearl_dust>
+    //     ]);
+    // }
 
     for color in crtlib.colors {
         Infusion.registerRecipe("primo_color_" ~ color, "", crtlib.refinedBottleGetter(color ~ "_primordial"), 5,

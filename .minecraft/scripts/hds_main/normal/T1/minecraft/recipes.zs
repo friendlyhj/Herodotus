@@ -88,11 +88,12 @@ RecipeUtils.recipeTweak(true, <bibliocraft:framedchest:6>, [
     [<bibliocraft:framingsheet>, <minecraft:chest>, <bibliocraft:framingsheet>]
 ]);
 
-RecipeUtils.recipeTweak(true, <prodigytech:heat_capacitor_1:12000>, [
-    [null, <prodigytech:heat_capacitor_0:12000>, null],
-    [<ore:dustAstralStarmetal>, <ore:dustGold>, <ore:dustAstralStarmetal>],
-    [null, <prodigytech:heat_capacitor_0:12000>, null]
-]);
+// TODO: Astral Sorcery mod removed, new recipe needed
+// RecipeUtils.recipeTweak(true, <prodigytech:heat_capacitor_1:12000>, [
+//     [null, <prodigytech:heat_capacitor_0:12000>, null],
+//     [<ore:dustAstralStarmetal>, <ore:dustGold>, <ore:dustAstralStarmetal>],
+//     [null, <prodigytech:heat_capacitor_0:12000>, null]
+// ]);
 
 RecipeUtils.recipeTweak(true, <jecalculation:item_calculator>, [
     [<pyrotech:material:16>, <ore:blockGlassColorless>, <pyrotech:material:16>],

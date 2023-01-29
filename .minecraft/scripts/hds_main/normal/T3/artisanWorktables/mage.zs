@@ -260,19 +260,20 @@ RecipeBuilder.get("mage")
   .addOutput(<thaumadditions:jar_thaumium>)
   .create();
 
-RecipeBuilder.get("mage")
-  .setShaped([
-    [<improvedbackpacks:tanned_leather>, <astralsorcery:itemcraftingcomponent:5>, <improvedbackpacks:tanned_leather>],
-    [<pyrotech:refractory_glass>, <thaumcraft:thaumometer>, <pyrotech:refractory_glass>],
-    [null, <astralsorcery:itemcraftingcomponent:5>, null]])
-  .setFluid(<liquid:mercury> * 1000)
-  .addTool(<ore:artisansAthame>, 175)
-  .addOutput(<thaumcraft:goggles>)
-  .setExperienceRequired(500)
-  .setConsumeExperience(true)
-  .setRecipeAction(function(out, info, player) {
-        if (isNull(player) || player.world.remote) return;
-        player.addPotionEffect(<potion:minecraft:poison>.makePotionEffect(200, 1));
-    })
-  .create();
+// TODO: Astral Sorcery mod removed, new recipe needed
+// RecipeBuilder.get("mage")
+//   .setShaped([
+//     [<improvedbackpacks:tanned_leather>, <astralsorcery:itemcraftingcomponent:5>, <improvedbackpacks:tanned_leather>],
+//     [<pyrotech:refractory_glass>, <thaumcraft:thaumometer>, <pyrotech:refractory_glass>],
+//     [null, <astralsorcery:itemcraftingcomponent:5>, null]])
+//   .setFluid(<liquid:mercury> * 1000)
+//   .addTool(<ore:artisansAthame>, 175)
+//   .addOutput(<thaumcraft:goggles>)
+//   .setExperienceRequired(500)
+//   .setConsumeExperience(true)
+//   .setRecipeAction(function(out, info, player) {
+//         if (isNull(player) || player.world.remote) return;
+//         player.addPotionEffect(<potion:minecraft:poison>.makePotionEffect(200, 1));
+//     })
+//   .create();
 }

@@ -165,6 +165,6 @@ function refinedBottleGetter(fluidName as string, amount as int = 1000) as IItem
     return <hdsutils:refined_bottle>.withTag({Fluid: {FluidName: fluidName, Amount: amount}});
 }
 
-function asRockCrystalGetter(collectiveCapability as int = 0, size as int = 0, fract as int = 0, purity as int = 0, sizeOverride as int = 0) as IItemStack {
-    return <astralsorcery:itemrockcrystalsimple>.withTag({astralsorcery: {crystalProperties: {collectiveCapability: 0, size: 0, fract: 0, purity: 0, sizeOverride: 0}}});
-}
+// function asRockCrystalGetter(collectiveCapability as int = 0, size as int = 0, fract as int = 0, purity as int = 0, sizeOverride as int = 0) as IItemStack {
+//     return <astralsorcery:itemrockcrystalsimple>.withTag({astralsorcery: {crystalProperties: {collectiveCapability: 0, size: 0, fract: 0, purity: 0, sizeOverride: 0}}});
+// }

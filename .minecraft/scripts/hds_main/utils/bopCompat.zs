@@ -99,7 +99,7 @@ if(!isInvalid){
             .addDrop(Dropt.drop().items([plantFibersDried], Dropt.range(1, 2)).selector(Dropt.weight(5)))
         );
         recipes.addShapeless("bop_compat_"~ StringHelper.getItemNameWithUnderline(grass), plantFibers, [grass]);
-        FluidToItem.transform(<astralsorcery:blockcustomflower> * 4, <liquid:astralsorcery.liquidstarlight>, [grass * 4], true);
+        // FluidToItem.transform(<astralsorcery:blockcustomflower> * 4, <liquid:astralsorcery.liquidstarlight>, [grass * 4], true);
         CompostBin.addRecipe(<pyrotech:mulch>, grass);
     }
 
@@ -139,7 +139,7 @@ if(!isInvalid){
             .addDrop(Dropt.drop().items([plantFibers], Dropt.range(1, 2)).selector(Dropt.weight(50)))
         );
         recipes.addShapeless("bop_compat_"~ StringHelper.getItemNameWithUnderline(grass), plantFibers, [grass]);
-        FluidToItem.transform(<astralsorcery:blockcustomflower> * 4, <liquid:astralsorcery.liquidstarlight>, [grass * 4], true);
+        // FluidToItem.transform(<astralsorcery:blockcustomflower> * 4, <liquid:astralsorcery.liquidstarlight>, [grass * 4], true);
         CompostBin.addRecipe(<pyrotech:mulch>, grass);
     }
 

@@ -6,7 +6,7 @@ import mods.chisel.Carving;
 import scripts.hds_main.utils.modloader.isInvalid;
 
 if(!isInvalid) {
-
-Carving.removeGroup("marble");
-Carving.removeGroup("sooty_marble");
+// TODO: Astral Sorcery mod removed, now this script has no functionality
+// Carving.removeGroup("marble");
+// Carving.removeGroup("sooty_marble");
 }

@@ -42,10 +42,11 @@ for shape in crtlib.shapes {
     .create();
 }
 
-RecipeBuilder.get("jeweler")
-  .setShapeless([<ore:gemFlawlessGlimmerite>])
-  .addTool(<ore:artisansGemCutter>, 4)
-  .addOutput(<contenttweaker:astral_lens>)
-  .create();
+// TODO: Astral Sorcery mod removed, this CoT item may be unnecessary
+// RecipeBuilder.get("jeweler")
+//   .setShapeless([<ore:gemFlawlessGlimmerite>])
+//   .addTool(<ore:artisansGemCutter>, 4)
+//   .addOutput(<contenttweaker:astral_lens>)
+//   .create();
 
 }

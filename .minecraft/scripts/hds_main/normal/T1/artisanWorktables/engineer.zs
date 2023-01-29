@@ -35,23 +35,25 @@ RecipeBuilder.get("engineer")
   .addOutput(<prodigytech:heat_sawmill>)
   .create();
 
-RecipeBuilder.get("engineer")
-  .setShaped([
-    [<ore:plateIron>, <hdsutils:tiny_starlight_storage:1>, <ore:plateIron>],
-    [<astralsorcery:blockcustomflower>, <contenttweaker:starlight_frame>, <astralsorcery:blockcustomflower>],
-    [<ore:plateIron>, <astralsorcery:blockcustomflower>, <ore:plateIron>]])
-  .addTool(<ore:artisansSpanner>, 80)
-  .addOutput(<prodigytech:primordialis_reactor>)
-  .create();
+// TODO: Astral Sorcery mod removed, new recipe needed
+// RecipeBuilder.get("engineer")
+//   .setShaped([
+//     [<ore:plateIron>, <hdsutils:tiny_starlight_storage:1>, <ore:plateIron>],
+//     [<astralsorcery:blockcustomflower>, <contenttweaker:starlight_frame>, <astralsorcery:blockcustomflower>],
+//     [<ore:plateIron>, <astralsorcery:blockcustomflower>, <ore:plateIron>]])
+//   .addTool(<ore:artisansSpanner>, 80)
+//   .addOutput(<prodigytech:primordialis_reactor>)
+//   .create();
 
-RecipeBuilder.get("engineer")
-  .setShaped([
-    [<ore:ingotBronze>, <ore:blockRedstone>, <ore:ingotBronze>],
-    [<ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>],
-    [<ore:ingotBronze>, <ore:gearBronze>, <ore:ingotBronze>]])
-  .addTool(<ore:artisansDriver>, 80)
-  .addOutput(<prodigytech:energion_aeroheater>)
-  .create();
+// TODO: Astral Sorcery mod removed, new recipe needed
+// RecipeBuilder.get("engineer")
+//   .setShaped([
+//     [<ore:ingotBronze>, <ore:blockRedstone>, <ore:ingotBronze>],
+//     [<ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>],
+//     [<ore:ingotBronze>, <ore:gearBronze>, <ore:ingotBronze>]])
+//   .addTool(<ore:artisansDriver>, 80)
+//   .addOutput(<prodigytech:energion_aeroheater>)
+//   .create();
 
 RecipeBuilder.get("engineer")
   .setShaped([
@@ -62,14 +64,15 @@ RecipeBuilder.get("engineer")
   .addOutput(<prodigytech:capacitor_charger>)
   .create();
 
-RecipeBuilder.get("engineer")
-  .setShaped([
-    [<ore:ingotBronze>, <ore:blockQuartz>, <ore:ingotBronze>],
-    [<ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>],
-    [<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>]])
-  .addTool(<contenttweaker:hot_air_solderer>, 750)
-  .addOutput(<prodigytech:capacitor_aeroheater>)
-  .create();
+// TODO: Astral Sorcery mod removed, new recipe needed
+// RecipeBuilder.get("engineer")
+//   .setShaped([
+//     [<ore:ingotBronze>, <ore:blockQuartz>, <ore:ingotBronze>],
+//     [<ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>],
+//     [<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>]])
+//   .addTool(<contenttweaker:hot_air_solderer>, 750)
+//   .addOutput(<prodigytech:capacitor_aeroheater>)
+//   .create();
 
 RecipeBuilder.get("engineer")
   .setShaped([

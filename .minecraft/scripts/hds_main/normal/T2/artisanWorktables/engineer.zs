@@ -194,14 +194,16 @@ RecipeBuilder.get("engineer")
   .addOutput(<prodigytech:automatic_crystal_cutter>)
   .create();
 
-RecipeBuilder.get("engineer")
-  .setShaped([
-    [<pneumaticcraft:pressure_gauge>, <ore:gearIron>, <pneumaticcraft:pressure_gauge>],
-    [<pneumaticcraft:pressure_tube>, <factorytech:intermediate:4>, <pneumaticcraft:pressure_tube>],
-    [<astralsorcery:blockmarbleslab>, <astralsorcery:blockmarbleslab>, <astralsorcery:blockmarbleslab>]])
-  .addTool(<contenttweaker:hot_air_solderer>, 1000)
-  .addOutput(<pneumaticcraft:vacuum_pump>)
-  .create();
+// TODO: Astral Sorcery mod removed, new recipe needed
+// RecipeBuilder.get("engineer")
+//   .setShaped([
+//     [<pneumaticcraft:pressure_gauge>, <ore:gearIron>, <pneumaticcraft:pressure_gauge>],
+//     [<pneumaticcraft:pressure_tube>, <factorytech:intermediate:4>, <pneumaticcraft:pressure_tube>],
+//     [<astralsorcery:blockmarbleslab>, <astralsorcery:blockmarbleslab>, <astralsorcery:blockmarbleslab>]])
+//   .addTool(<contenttweaker:hot_air_solderer>, 1000)
+//   .addOutput(<pneumaticcraft:vacuum_pump>)
+//   .create();
+
 /*
 RecipeBuilder.get("engineer")
   .setShapeless([<magneticraft:multiblock_parts:5>, <ore:hopper>, <ore:clumpBlue>])
@@ -268,14 +270,15 @@ RecipeBuilder.get("engineer")
   .addOutput(<factorytech:intermediate:2> * 2)
   .create();
 
-RecipeBuilder.get("engineer")
-  .setShaped([
-    [<ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>],
-    [<ore:ingotIronCompressed>, <ore:plasticLime>, <pneumaticcraft:pressure_tube>],
-    [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>]])
-  .addTool(<contenttweaker:hot_air_solderer>, 650)
-  .addOutput(<pneumaticcraft:uv_light_box>)
-  .create();
+// TODO: Astral Sorcery mod removed, new recipe needed
+// RecipeBuilder.get("engineer")
+//   .setShaped([
+//     [<ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>],
+//     [<ore:ingotIronCompressed>, <ore:plasticLime>, <pneumaticcraft:pressure_tube>],
+//     [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>]])
+//   .addTool(<contenttweaker:hot_air_solderer>, 650)
+//   .addOutput(<pneumaticcraft:uv_light_box>)
+//   .create();
 
 RecipeBuilder.get("engineer")
   .setShaped([

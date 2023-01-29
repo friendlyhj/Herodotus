@@ -36,23 +36,25 @@ RecipeBuilder.get("blacksmith")
   })
   .create();
 
-RecipeBuilder.get("blacksmith")
-  .setShapeless([<minecraft:glass_pane>, <contenttweaker:astral_lens>, <ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>])
-  .addTool(<contenttweaker:hot_air_solderer>, 120)
-  .addOutput(<astralsorcery:itemcraftingcomponent:3>)
-  .create();
+// RecipeBuilder.get("blacksmith")
+//   .setShapeless([<minecraft:glass_pane>, <contenttweaker:astral_lens>, <ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>])
+//   .addTool(<contenttweaker:hot_air_solderer>, 120)
+//   .addOutput(<astralsorcery:itemcraftingcomponent:3>)
+//   .create();
 
-RecipeBuilder.get("blacksmith")
-  .setShapeless([<ore:gemFlawlessGlimmerite>, <astralsorcery:itemcraftingcomponent:3>.reuse(), <astralsorcery:blockmarbleslab>, <ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>])
-  .addTool(<contenttweaker:hot_air_solderer>, 100)
-  .addOutput(<hdsutils:tiny_starlight_storage>)
-  .create();
+// TODO: Astral Sorcery mod removed, new recipe needed
+// RecipeBuilder.get("blacksmith")
+//   .setShapeless([<ore:gemFlawlessGlimmerite>, <astralsorcery:itemcraftingcomponent:3>.reuse(), <astralsorcery:blockmarbleslab>, <ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>])
+//   .addTool(<contenttweaker:hot_air_solderer>, 100)
+//   .addOutput(<hdsutils:tiny_starlight_storage>)
+//   .create();
 
-RecipeBuilder.get("blacksmith")
-  .setShapeless([<prodigytech:primordialis_reactor>, <astralsorcery:itemcraftingcomponent:3>, <prodigytech:primordium>])
-  .addTool(<contenttweaker:hot_air_solderer>, 200)
-  .addOutput(<prodigytech:atomic_reshaper>)
-  .create();
+// TODO: Astral Sorcery mod removed, new recipe needed
+// RecipeBuilder.get("blacksmith")
+//   .setShapeless([<prodigytech:primordialis_reactor>, <astralsorcery:itemcraftingcomponent:3>, <prodigytech:primordium>])
+//   .addTool(<contenttweaker:hot_air_solderer>, 200)
+//   .addOutput(<prodigytech:atomic_reshaper>)
+//   .create();
 
 RecipeBuilder.get("blacksmith")
   .setShaped([

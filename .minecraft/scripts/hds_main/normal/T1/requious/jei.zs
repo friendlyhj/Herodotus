@@ -28,10 +28,11 @@ var altarRecipeCopper = AssemblyRecipe.create(function(container) {
 })
 .requireItem("input", <ore:ingotCopper>.materialPart);
 
-var altarFrame2Well = AssemblyRecipe.create(function(container) {
-    container.addItemOutput("output", <astralsorcery:blockwell>);
-})
-.requireItem("input", <contenttweaker:starlight_frame>);
+// TODO: Astral Sorcery mod removed, this CoT item may be unnecessary
+// var altarFrame2Well = AssemblyRecipe.create(function(container) {
+//     container.addItemOutput("output", <astralsorcery:blockwell>);
+// })
+// .requireItem("input", <contenttweaker:starlight_frame>);
 
 var altarGlassOre2StarMetal = AssemblyRecipe.create(function(container) {
     container.addItemOutput("output", <astralsorcery:blockcustomore:1>);

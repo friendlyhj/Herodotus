@@ -77,7 +77,7 @@ for color in crtlib.colors {
     addGrinderRecipe(crushedOre, dust);
 
     // remove other dust crafting
-    mods.astralsorcery.Grindstone.removeRecipe(dust.materialPart);
+    // mods.astralsorcery.Grindstone.removeRecipe(dust.materialPart);
     Grindstone.removeRecipe(dust.materialPart);
 
     /*MMRecipeBuilder.newBuilder("steamer_" ~ color, "steamer", 100)

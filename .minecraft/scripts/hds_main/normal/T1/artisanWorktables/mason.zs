@@ -158,14 +158,15 @@ RecipeBuilder.get("mason")
   .addOutput(<artisanworkstumps:stone_basin>)
   .create();
 
-RecipeBuilder.get("mason")
-  .setShaped([
-    [<astralsorcery:blockmarbleslab>, <ore:ingotIron>, <astralsorcery:blockmarbleslab>],
-    [<ore:ingotIron>, <ore:dustGlimmerite>, <ore:ingotIron>],
-    [<astralsorcery:blockmarbleslab>, <ore:ingotIron>, <astralsorcery:blockmarbleslab>]])
-  .addTool(<ore:artisansTrowel>, 10)
-  .addOutput(<contenttweaker:starlight_frame>)
-  .create();
+// TODO: Astral Sorcery mod removed, this CoT item may be unnecessary
+// RecipeBuilder.get("mason")
+//   .setShaped([
+//     [<astralsorcery:blockmarbleslab>, <ore:ingotIron>, <astralsorcery:blockmarbleslab>],
+//     [<ore:ingotIron>, <ore:dustGlimmerite>, <ore:ingotIron>],
+//     [<astralsorcery:blockmarbleslab>, <ore:ingotIron>, <astralsorcery:blockmarbleslab>]])
+//   .addTool(<ore:artisansTrowel>, 10)
+//   .addOutput(<contenttweaker:starlight_frame>)
+//   .create();
 
 RecipeBuilder.get("mason")
   .setShaped([
