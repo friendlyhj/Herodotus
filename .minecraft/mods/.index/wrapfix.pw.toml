@@ -1,0 +1,13 @@
+filename = 'WrapFix-1.3.5-beta.jar'
+name = 'WrapFix'
+side = 'both'
+
+[download]
+hash = '6ed99fc8eba9c958522966a0cf36168e95bbdc47'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5636744
+project-id = 576946

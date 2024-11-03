@@ -1,0 +1,13 @@
+filename = 'CoTRO-1.12.2-1.0.1.jar'
+name = 'CoTRO'
+side = 'both'
+
+[download]
+hash = 'a75abbc5493cca23a212b6f9fc96c08bb453ccd1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5598843
+project-id = 488116

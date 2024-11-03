@@ -1,0 +1,13 @@
+filename = 'ifoccompat-0.1.jar'
+name = 'Industrial Foregoing / OC Compat'
+side = 'both'
+
+[download]
+hash = 'e872b75773eea791207730e09ad1f141a87f91ba'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3051668
+project-id = 406874

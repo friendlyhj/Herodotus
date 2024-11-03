@@ -1,0 +1,13 @@
+filename = 'XL-Food-Mod-1.12.2-1.9.2.jar'
+name = 'XL Food Mod'
+side = 'both'
+
+[download]
+hash = 'a6ff1eeb31ddfa7f5ed4605e53b0efa9fb4feea1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2740774
+project-id = 247217

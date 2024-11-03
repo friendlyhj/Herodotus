@@ -75,16 +75,19 @@
 .minecraft/config/Probe.cfg
 
 #pack stuff
-/instance.cfg
-/mmc-pack.json
+!/instance.cfg
+!/mmc-pack.json
 !/modlist.html
 !/manifest.json
+!/.packignore
 !/.minecraft/icon.png
 
 # utils mod
 !/.minecraft/mods
 /.minecraft/mods/*
 !/.minecraft/mods/herodotusutils*.jar
+!/.minecraft/mods/.index/
+!/.minecraft/mods/.index/*.pw.toml
 
 # cs file
 /runners/CurseforgeDownloader/CurseforgeDownloader/bin

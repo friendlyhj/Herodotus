@@ -1,0 +1,13 @@
+filename = 'rftpwr_oc-0.2.jar'
+name = 'RFTools Power / OC Integration'
+side = 'both'
+
+[download]
+hash = '50c6801288a68e9735011a355b82576506f20d29'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2574802
+project-id = 291916

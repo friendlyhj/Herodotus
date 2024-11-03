@@ -1,0 +1,13 @@
+filename = 'ThaumicComputers-MC1.12.2-0.5.1.jar'
+name = 'Thaumic Computers'
+side = 'both'
+
+[download]
+hash = '9b94fe37d4b61736a9c5e103b210ca57b92400d3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2777074
+project-id = 293768

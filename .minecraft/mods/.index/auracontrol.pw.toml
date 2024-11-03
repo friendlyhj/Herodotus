@@ -1,0 +1,13 @@
+filename = 'AuraControl-1.12.2-1.0.2.jar'
+name = 'AuraControl'
+side = 'both'
+
+[download]
+hash = '148781667e9f037d76f66fae7d24ad87a08e3ec4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3013979
+project-id = 397104

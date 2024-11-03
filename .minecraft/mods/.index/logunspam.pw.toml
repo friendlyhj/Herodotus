@@ -1,0 +1,13 @@
+filename = 'LogUnSpam-1.0-1.12.jar'
+name = 'LogUnSpam'
+side = 'both'
+
+[download]
+hash = 'f568634151cf6dd8d54dc4d66ba447a1d15b39ba'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4111086
+project-id = 620815

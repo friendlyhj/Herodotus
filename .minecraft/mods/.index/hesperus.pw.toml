@@ -1,0 +1,13 @@
+filename = 'phosphor-1.12.2-0.2.9.3-SNAPSHOT.jar'
+name = 'Phosphor Lighting Engine'
+side = 'both'
+
+[download]
+hash = 'ddeddd44e33fd636a6a36fbac001bbc91c518f19'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4724647
+project-id = 620262

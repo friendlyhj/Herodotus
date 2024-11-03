@@ -1,0 +1,13 @@
+filename = 'railcraft-12.1.0-beta-8.jar'
+name = 'Railcraft'
+side = 'both'
+
+[download]
+hash = '3f894220b478ac454b731642aaf118b3ac7097ae'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3853491
+project-id = 51195

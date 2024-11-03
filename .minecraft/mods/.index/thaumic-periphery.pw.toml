@@ -1,0 +1,13 @@
+filename = 'thaumicperiphery-0.3.1.jar'
+name = 'Thaumic Periphery'
+side = 'both'
+
+[download]
+hash = '4c1e3d1fd50d4d4379f90c2d9a66e9493944d6e8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2766866
+project-id = 293505

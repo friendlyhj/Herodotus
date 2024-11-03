@@ -1,0 +1,13 @@
+filename = 'SRParasites-1.12.2v1.9.8.jar'
+name = 'Scape and Run: Parasites'
+side = 'both'
+
+[download]
+hash = 'c57aec6c2d3affb5960c72d74076548949293961'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4171621
+project-id = 348025

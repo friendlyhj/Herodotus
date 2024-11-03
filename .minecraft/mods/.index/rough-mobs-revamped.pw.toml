@@ -1,0 +1,13 @@
+filename = 'roughmobsrevamped-1.12.2-2.3.23.jar'
+name = 'Rough Mobs Revamped'
+side = 'both'
+
+[download]
+hash = '86e955b1f06fa7ff368271e5e756556c8f00b51b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3634226
+project-id = 360795

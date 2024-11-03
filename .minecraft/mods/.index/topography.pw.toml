@@ -1,0 +1,13 @@
+filename = 'Topography-1.12.2-1.14.5.jar'
+name = 'Topography'
+side = 'both'
+
+[download]
+hash = '955e9f3339485d91657743d2a43e516e7051c361'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3994737
+project-id = 297878

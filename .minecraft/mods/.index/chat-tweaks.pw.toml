@@ -1,0 +1,13 @@
+filename = 'ChatTweaks_1.12.2-5.1.25.jar'
+name = 'Chat Tweaks'
+side = 'both'
+
+[download]
+hash = '79f0d53ac10f149e48e45fae09de3798fe9c8478'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2990969
+project-id = 243506

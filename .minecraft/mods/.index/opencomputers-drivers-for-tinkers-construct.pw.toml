@@ -1,0 +1,13 @@
+filename = 'tinkersoc-0.6.jar'
+name = 'OpenComputers Drivers for Tinkers Construct'
+side = 'both'
+
+[download]
+hash = 'f58a26c9002cc8ac181c877bd4a5fd28707d2a04'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2645185
+project-id = 287267

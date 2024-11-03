@@ -1,0 +1,13 @@
+filename = 'EFab-CT-Bindings-0.2.jar'
+name = 'EFab CT Bindings'
+side = 'both'
+
+[download]
+hash = 'f991932ee40a2867d7c5a4f646db8bdc5d03498e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2620187
+project-id = 303524

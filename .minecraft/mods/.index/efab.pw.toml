@@ -1,0 +1,13 @@
+filename = 'efab-0.2.0.jar'
+name = 'EFab'
+side = 'both'
+
+[download]
+hash = '955f3f59e1c20026fce91957e1295b78f16b1837'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2704406
+project-id = 293954

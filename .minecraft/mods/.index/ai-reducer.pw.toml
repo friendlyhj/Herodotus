@@ -1,0 +1,13 @@
+filename = 'AIReducer-1.12.2-0.3.0.jar'
+name = 'AI Reducer'
+side = 'both'
+
+[download]
+hash = 'a68d2b0996e8146f4c4fa270d7100c496120bfd3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3543884
+project-id = 367831
