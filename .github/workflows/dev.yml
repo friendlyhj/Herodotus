@@ -1,0 +1,279 @@
+name: dev
+on:
+  push:
+    branches: [release, develop]
+  workflow_dispatch:
+env:
+  BUILD: Herodotus
+  VERSION: 0.4.0
+
+jobs:
+  FTBQuestsProcessor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+
+      - name: Run FTB Quests lang processor
+        if: "!endsWith(github.ref, 'release')"
+        run: python runners/ftbq_lang_processor.py
+
+      - name: Commit processor changes
+        uses: EndBug/add-and-commit@v7
+        with:
+          author_name: friendlyhj
+          author_email: youyi580@qq.com
+          message: "ftbq lang processor changes (github action)"
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACTION_TOKEN }}
+
+  CreateCursePack:
+    if: "!endsWith(github.event.head_commit.message, 'NOCLIENT') && endsWith(github.ref, 'develop')"
+    runs-on: ubuntu-latest
+    needs: FTBQuestsProcessor
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+
+      - name: Run version.py
+        run: python runners/version.py
+
+      - name: Run build.sh
+        run: bash runners/build.sh
+
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: ${{ env.BUILD }}-${{ env.VERSION }}.${{ github.run_number }}
+          path: artifacts
+
+  CreateServerPack:
+    if: "!endsWith(github.event.head_commit.message, 'NOSERVER') && endsWith(github.ref, 'develop')"
+    runs-on: ubuntu-latest
+    needs: FTBQuestsProcessor
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+
+      - name: Set up JDK 1.8
+        uses: actions/setup-java@v1
+        with:
+          java-version: 1.8
+      
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 6.0.x
+
+      - name: Close Debug Mode
+        run: python runners/close_debug.py
+
+      - name: Run version.py
+        run: python runners/version.py
+
+      - name: Install server
+        run: |
+          mkdir ${GITHUB_WORKSPACE}/server
+          wget https://maven.minecraftforge.net/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-installer.jar -O ${GITHUB_WORKSPACE}/server/forge-1.12.2-14.23.5.2860-installer.jar
+          cd ./server
+          sudo java -jar forge-1.12.2-14.23.5.2860-installer.jar --installServer
+          sudo rm forge-1.12.2-14.23.5.2860-installer.jar
+          sudo rm forge-1.12.2-14.23.5.2860-installer.jar.log
+
+      - name: Setup server files
+        run: |
+          mv ${GITHUB_WORKSPACE}/.minecraft/mods ${GITHUB_WORKSPACE}/server/
+          mv ${GITHUB_WORKSPACE}/.minecraft/config ${GITHUB_WORKSPACE}/server/
+          mv ${GITHUB_WORKSPACE}/.minecraft/scripts ${GITHUB_WORKSPACE}/server/
+          mv ${GITHUB_WORKSPACE}/.minecraft/resources ${GITHUB_WORKSPACE}/server/
+          mv ${GITHUB_WORKSPACE}/.minecraft/icon.png ${GITHUB_WORKSPACE}/server/
+          mv ${GITHUB_WORKSPACE}/runners/server/start.bat ${GITHUB_WORKSPACE}/server/
+          mv ${GITHUB_WORKSPACE}/runners/server/start.sh ${GITHUB_WORKSPACE}/server/
+
+      - name: Build Downloader
+        run: dotnet publish ${GITHUB_WORKSPACE}/runners/CurseforgeDownloader/CurseforgeDownloader/CurseforgeDownloader.csproj -c Release -o ${GITHUB_WORKSPACE}/ -r linux-x64 --self-contained false -p:PublishSingleFile=true
+
+      - name: Run Downloader
+        run: |
+          chmod +x ${GITHUB_WORKSPACE}/CurseforgeDownloader
+          ${GITHUB_WORKSPACE}/CurseforgeDownloader --api-key '${{ secrets.OVERWOLF_API_KEY }}' --mod-folder-path './server/mods' --black-list '454215'
+
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: ${{ env.BUILD }}-${{ env.VERSION }}.${{ github.run_number }} Server
+          path: server
+
+  UpdateVersionJson:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+
+      - name: Install SSH Key
+        uses: shimataro/ssh-key-action@v2
+        with:
+          key: ${{ secrets.GITEE_SSH_KEY }}
+          known_hosts: ${{ secrets.GITEE_SSH_HOST }}
+
+      - name: Update Version Json
+        id: update-version-json
+        run: | 
+          git clone git@gitee.com:ProjectHDS/HDSVersioning.git
+          cd ./HDSVersioning
+          python update_version.py
+
+      - name: Upload Version Json
+        if: "steps.update-version-json.outputs.versionChanged == 'True'"
+        run: |
+          cd ./HDSVersioning
+          git config user.name GBLodb
+          git config user.email garybluis@outlook.com
+          git add .
+          git commit -m "Update Version ${{ env.VERSION }}.${{ github.run_number }}"
+          git push
+  
+  TagAndRelease:
+    if: "endsWith(github.ref, 'release')"
+    needs: FTBQuestsProcessor
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Commit tagger
+        uses: tvdias/github-tagger@v0.0.2
+        with:
+          repo-token: "${{ secrets.ACTION_TOKEN }}"
+          tag: v${{ env.VERSION }}.${{ github.run_number }}
+
+      - uses: actions/checkout@v2
+
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+      
+      - name: Set up JDK 1.8
+        uses: actions/setup-java@v1
+        with:
+          java-version: 1.8
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 6.0.x
+
+      - name: Close Debug Mode
+        run: python runners/close_debug.py
+
+      - name: Run version.py
+        run: python runners/version.py
+
+      - name: Build Downloader
+        run: dotnet publish ${GITHUB_WORKSPACE}/runners/CurseforgeDownloader/CurseforgeDownloader/CurseforgeDownloader.csproj -c Release -o ${GITHUB_WORKSPACE}/ -r linux-x64 -p:PublishSingleFile=true
+
+      - name: Read Herodotus Utils Cache
+        uses: actions/cache@v3
+        id: hdsu_cache
+        with:
+          path: caches
+          key: ${{ runner.os }}-${{ hashFiles('.minecraft/mods/herodotusutils**') }}
+
+      - name: Get Herodotus Utils Path
+        id: hdsu_path
+        run: python ${GITHUB_WORKSPACE}/runners/get_hdsu_file_name.py
+
+      - name: Upload Herodotus Utils
+        if: steps.hdsu_cache.outputs.cache-hit != 'true'
+        id: hdsu_upload
+        uses: itsmeow/curseforge-upload@v3
+        with:
+          file_path: ".minecraft/mods/${{ steps.hdsu_path.outputs.hdsu_path }}"
+          game_endpoint: "minecraft"
+          project_id: 574421
+          game_versions: "Minecraft 1.12:1.12.2"
+          release_type: beta
+          token: ${{ secrets.CURSE_UPLOAD_TOKEN }}
+      
+      - name: Write Herodotus CurseForge File ID
+        if: steps.hdsu_cache.outputs.cache-hit != 'true'
+        run: sudo bash runners/set_hdsu_file_id.sh ${{ steps.hdsu_upload.outputs.id }}
+
+      - name: Write manifest
+        run: python ${GITHUB_WORKSPACE}/runners/update_manifest.py
+
+      - name: Remove previous herodotus utils file
+        run: sudo rm -r .minecraft/mods/
+
+      - name: pack for release asset (curse pack)
+        run: |
+          cd ${GITHUB_WORKSPACE}
+          mv .minecraft overrides
+          zip -r "${{ env.BUILD }}-${{ env.VERSION }}.${{ github.run_number }}.zip" -xi manifest.json modlist.html overrides
+
+      - name: Install server
+        run: |
+          mkdir ${GITHUB_WORKSPACE}/server
+          wget https://maven.minecraftforge.net/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-installer.jar -O ${GITHUB_WORKSPACE}/server/forge-1.12.2-14.23.5.2860-installer.jar
+          cd ./server
+          sudo java -jar forge-1.12.2-14.23.5.2860-installer.jar --installServer
+          sudo rm forge-1.12.2-14.23.5.2860-installer.jar
+          sudo rm forge-1.12.2-14.23.5.2860-installer.jar.log
+
+      - name: Setup server files
+        run: |
+          mv ${GITHUB_WORKSPACE}/overrides/config ${GITHUB_WORKSPACE}/server/
+          mv ${GITHUB_WORKSPACE}/overrides/scripts ${GITHUB_WORKSPACE}/server/
+          mv ${GITHUB_WORKSPACE}/overrides/resources ${GITHUB_WORKSPACE}/server/
+          mv ${GITHUB_WORKSPACE}/overrides/icon.png ${GITHUB_WORKSPACE}/server/
+          mv ${GITHUB_WORKSPACE}/runners/server/start.bat ${GITHUB_WORKSPACE}/server/
+          mv ${GITHUB_WORKSPACE}/runners/server/start.sh ${GITHUB_WORKSPACE}/server/
+          mkdir ${GITHUB_WORKSPACE}/server/mods
+
+      - name: Run Downloader
+        run: |
+          chmod +x ${GITHUB_WORKSPACE}/CurseforgeDownloader
+          ${GITHUB_WORKSPACE}/CurseforgeDownloader --api-key '${{ secrets.OVERWOLF_API_KEY }}' --mod-folder-path './server/mods' --black-list '454215'
+
+      - name: pack for release asset (server pack)
+        run: |
+          cd ${GITHUB_WORKSPACE}
+          zip -r "${{ env.BUILD }}-${{ env.VERSION }}.${{ github.run_number }} Server.zip" -xi ${GITHUB_WORKSPACE}/server
+
+      - name: Release to GitHub
+        id: gh_release
+        uses: softprops/action-gh-release@v1
+        with:
+          prerelease: true
+          generate_release_notes: true
+          name: v${{ env.VERSION }}.${{ github.run_number }}
+          tag_name: v${{ env.VERSION }}.${{ github.run_number }}
+          files: |
+            ${{ env.BUILD }}-${{ env.VERSION }}.${{ github.run_number }}.zip
+            ${{ env.BUILD }}-${{ env.VERSION }}.${{ github.run_number }} Server.zip
+
+      - name: Release to CurseForge
+        uses: itsmeow/curseforge-upload@v3
+        with:
+          file_path: "${{ env.BUILD }}-${{ env.VERSION }}.${{ github.run_number }}.zip"
+          game_endpoint: "minecraft"
+          project_id: 622478
+          game_versions: "Minecraft 1.12:1.12.2"
+          release_type: beta
+          changelog: See ${{ steps.gh_release.outputs.url }}
+          token: ${{ secrets.CURSE_UPLOAD_TOKEN }}
+
