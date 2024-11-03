@@ -17,7 +17,8 @@ if (!isInvalid) {
     <minecraft:iron_axe>.maxDamage = 300;
     <minecraft:iron_sword>.maxDamage = 300;
     <minecraft:iron_hoe>.maxDamage = 300;
-    <prodigytech:crystal_cutter>.maxDamage = 300;
+    // TODO: ProdigyTech is removed
+    // <prodigytech:crystal_cutter>.maxDamage = 300;
     <pyrotech:obsidian_pickaxe>.maxDamage = 450;
     <pyrotech:obsidian_shovel>.maxDamage = 450;
     <pyrotech:obsidian_axe>.maxDamage = 450;

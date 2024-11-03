@@ -10,7 +10,8 @@ import scripts.hds_lib.crtlib.basicAspects;
 if (!isInvalid) {
     val map as RecipeMap = <mbd:recipe_map:aspect_blast_furnace>;
 
-    map.start()
+// TODO: ProdigyTech is removed, new recipe is needed
+/*    map.start()
         .duration(240)
         .inputItems(<ore:ingotCopper>)
         .inputFluids(<liquid:yellow> * 500)
@@ -61,7 +62,7 @@ if (!isInvalid) {
         .outputItems(<thaumcraft:stone_arcane>)
         .inputHotAir(250)
         .buildAndRegister();
-
+*/
     for aspect in basicAspects {
         val name as string = aspect.internal.name.toLowerCase();
         map.start()

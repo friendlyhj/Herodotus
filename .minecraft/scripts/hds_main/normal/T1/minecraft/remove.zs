@@ -14,20 +14,26 @@ val removeByOutput as IItemStack[] = [
     <tconstruct:casting:1>,
     <tconstruct:pattern>,
     <pyrotech:faucet_brick>,
-    <prodigytech:solid_fuel_aeroheater>,
-    <prodigytech:energion_aeroheater>,
-    <prodigytech:rotary_grinder>,
-    <prodigytech:heat_sawmill>,
-    <prodigytech:magmatic_aeroheater>,
-    <prodigytech:magnetic_reassembler>,
-    <prodigytech:atomic_reshaper>,
-    <prodigytech:primordialis_reactor>,
-    <prodigytech:solderer>,
-    <prodigytech:ferramic_gear>,
-    <prodigytech:wormhole_linker>,
+
+    // TODO: ProdigyTech is removed
+    // <prodigytech:solid_fuel_aeroheater>,
+    // <prodigytech:energion_aeroheater>,
+    // <prodigytech:rotary_grinder>,
+    // <prodigytech:heat_sawmill>,
+    // <prodigytech:magmatic_aeroheater>,
+    // <prodigytech:magnetic_reassembler>,
+    // <prodigytech:atomic_reshaper>,
+    // <prodigytech:primordialis_reactor>,
+    // <prodigytech:solderer>,
+    // <prodigytech:ferramic_gear>,
+    // <prodigytech:wormhole_linker>,
     // <astralsorcery:itemjournal>,
+    
     <advancedrocketry:platepress>,
-    <prodigytech:energion_dust>,
+    
+    // TODO: ProdigyTech is removed
+    // <prodigytech:energion_dust>,
+    
     <pyrotech:material:9>,
     <botania:altar>,
     <minecraft:bucket>,
@@ -41,10 +47,13 @@ val removeByOutput as IItemStack[] = [
     <bibliocraft:printingpress>,
     <bibliocraft:bibliochase>,
     <bibliocraft:printplate>,
-    <prodigytech:food_enricher>,
-    <prodigytech:food_purifier>,
-    <prodigytech:capacitor_aeroheater>,
-    <prodigytech:capacitor_charger>,
+    
+    // TODO: ProdigyTech is removed
+    // <prodigytech:food_enricher>,
+    // <prodigytech:food_purifier>,
+    // <prodigytech:capacitor_aeroheater>,
+    // <prodigytech:capacitor_charger>,
+    
     <mekanismtools:bronzepaxel>,
     <mekanismtools:bronzepickaxe>,
     <mekanismtools:bronzeaxe>,
@@ -64,7 +73,10 @@ val removeByOutput as IItemStack[] = [
     <pyrotech:brick_oven>,
     <pyrotech:brick_sawmill>,
     <pyrotech:brick_crucible>,
-    <prodigytech:wormhole_funnel>,
+    
+    // TODO: ProdigyTech is removed
+    // <prodigytech:wormhole_funnel>,
+
     <factorytech:crate>,
     <magneticraft:box>,
     <pyrotech:worktable_stone>,
@@ -75,7 +87,10 @@ val removeByOutput as IItemStack[] = [
     <pyrotech:igniter:1>,
     <pyrotech:igniter>,
     <tconstruct:wooden_hopper>,
-    <prodigytech:ferramic_handbow>,
+    
+    // TODO: ProdigyTech is removed
+    // <prodigytech:ferramic_handbow>,
+
     <pyrotech:material:4>,
     <pyrotech:material:35>,
     <actuallyadditions:block_misc:5>,

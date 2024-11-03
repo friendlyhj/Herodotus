@@ -21,32 +21,36 @@ for name in allMetals{
     }
 }
 
-RecipeBuilder.get("engineer")
-  .setShaped([
-    [<ore:ingotBronze>, null, <ore:ingotBronze>],
-    [<ore:ingotRiverIron>, <advancedrocketry:iquartzcrucible>, <ore:ingotRiverIron>],
-    [<ore:ingotRiverIron>, <ore:netherrack>, <ore:ingotRiverIron>]])
-  .addTool(<contenttweaker:hot_air_solderer>, 200)
-  .addOutput(<prodigytech:tartaric_aeroheater>)
-  .create();
+// TODO: ProdigyTech is removed
+// RecipeBuilder.get("engineer")
+//   .setShaped([
+//     [<ore:ingotBronze>, null, <ore:ingotBronze>],
+//     [<ore:ingotRiverIron>, <advancedrocketry:iquartzcrucible>, <ore:ingotRiverIron>],
+//     [<ore:ingotRiverIron>, <ore:netherrack>, <ore:ingotRiverIron>]])
+//   .addTool(<contenttweaker:hot_air_solderer>, 200)
+//   .addOutput(<prodigytech:tartaric_aeroheater>)
+//   .create();
 
-RecipeBuilder.get("engineer")
-  .setShaped([
-    [null, <prodigytech:heat_capacitor_1:12000>, null],
-    [<ore:ingotGold>, <ore:plasticLightBlue>, <ore:ingotGold>],
-    [null, <prodigytech:heat_capacitor_1>, null]])
-  .addTool(<contenttweaker:hot_air_solderer>, 150)
-  .addOutput(<prodigytech:heat_capacitor_2:12000>)
-  .create();
+// TODO: ProdigyTech is removed
+// RecipeBuilder.get("engineer")
+//   .setShaped([
+//     [null, <prodigytech:heat_capacitor_1:12000>, null],
+//     [<ore:ingotGold>, <ore:plasticLightBlue>, <ore:ingotGold>],
+//     [null, <prodigytech:heat_capacitor_1>, null]])
+//   .addTool(<contenttweaker:hot_air_solderer>, 150)
+//   .addOutput(<prodigytech:heat_capacitor_2:12000>)
+//   .create();
 
-RecipeBuilder.get("engineer")
-  .setShaped([
-    [null, <prodigytech:heat_capacitor_2:12000>, null],
-    [<ore:ingotRiverIron>, <pneumaticcraft:printed_circuit_board>, <ore:ingotRiverIron>],
-    [null, <prodigytech:heat_capacitor_2>, null]])
-  .addTool(<contenttweaker:hot_air_solderer>, 200)
-  .addOutput(<prodigytech:heat_capacitor_3:12000>)
-  .create();
+// TODO: ProdigyTech is removed
+// RecipeBuilder.get("engineer")
+//   .setShaped([
+//     [null, <prodigytech:heat_capacitor_2:12000>, null],
+//     [<ore:ingotRiverIron>, <pneumaticcraft:printed_circuit_board>, <ore:ingotRiverIron>],
+//     [null, <prodigytech:heat_capacitor_2>, null]])
+//   .addTool(<contenttweaker:hot_air_solderer>, 200)
+//   .addOutput(<prodigytech:heat_capacitor_3:12000>)
+//   .create();
+
 /*
 RecipeBuilder.get("engineer")
     .setShaped([

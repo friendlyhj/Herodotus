@@ -18,7 +18,10 @@ val removeByOutput as IItemStack[] = [
     <embers:pipe>,
     <embers:pump>,
     <embers:item_pump>,
-    <prodigytech:automatic_crystal_cutter>,
+    
+    // TODO: ProdigyTech is removed
+    // <prodigytech:automatic_crystal_cutter>,
+    
     <magneticraft:multiblock_parts:*>,
     <magneticraft:multiblock_column>,
     <magneticraft:crafting:3>,
@@ -50,7 +53,10 @@ val removeByOutput as IItemStack[] = [
     <pneumaticcraft:uv_light_box>,
     <actuallyadditions:item_misc:4>,
     <factorytech:autominer>,
-    <prodigytech:fuel_processor>,
+    
+    // TODO: ProdigyTech is removed
+    // <prodigytech:fuel_processor>,
+    
     <pneumaticcraft:printed_circuit_board>,
     <pneumaticcraft:pressure_gauge>,
     <factorytech:metalcutter>,

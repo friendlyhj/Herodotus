@@ -22,10 +22,13 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
     var mainItem as IItemStack = player.currentItem;
 
     if(!world.remote && vitium.matches(mainItem) && world.getBlockState(pos) == <blockstate:thaumcraft:sapling_silverwood>) {
-        if(world.random.nextInt(0, 100) < 8) {
-            world.setBlockState(<blockstate:prodigytech:zorra_log>, pos);
-            world.setBlockState(<blockstate:prodigytech:zorra_leaves>, pos.getOffset(IFacing.up(), 1));
-        }
+        
+        // TODO: ProdigyTech is removed, we now need a new way for this ritual
+        
+        // if(world.random.nextInt(0, 100) < 8) {
+        //     world.setBlockState(<blockstate:prodigytech:zorra_log>, pos);
+        //     world.setBlockState(<blockstate:prodigytech:zorra_leaves>, pos.getOffset(IFacing.up(), 1));
+        // }
 
         mainItem.mutable().shrink(1);
         player.give(<thaumcraft:phial>);

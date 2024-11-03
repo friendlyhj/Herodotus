@@ -276,17 +276,19 @@ recipes.addShaped("more_chisel_blocks_from_iron_alloy", <chisel:tyrian> * 32,
 recipes.addShaped("mercury_block", <contenttweaker:mercury_block>, RecipeUtils.createFull3(<ore:ingotMercury>));
 recipes.addShaped("mercury_block_deconstruct", <thaumcraft:quicksilver> * 9, [[<contenttweaker:mercury_block>]]);
 
-recipes.replaceAllOccurences(<ore:ingotFerramic>, <ore:ingotBronze>, <*>.only(function(item) {
-    return item.definition.owner == "prodigytech" && (item.ores.length == 0 || !item.ores[0].name.contains("Ferramic"));
-}));
+// TODO: ProdigyTech is removed
+// recipes.replaceAllOccurences(<ore:ingotFerramic>, <ore:ingotBronze>, <*>.only(function(item) {
+//     return item.definition.owner == "prodigytech" && (item.ores.length == 0 || !item.ores[0].name.contains("Ferramic"));
+// }));
 
 recipes.replaceAllOccurences(<bibliocraft:framingsaw>, <ore:artisansHandsaw>, <*>.only(function(item) {
     return item.definition.owner == "bibliocraft";
 }));
 
-recipes.replaceAllOccurences(<ore:gearFerramic>, <ore:gearBronze>, <*>.only(function(item) {
-    return item.definition.owner == "prodigytech";
-}));
+// TODO: ProdigyTech is removed
+// recipes.replaceAllOccurences(<ore:gearFerramic>, <ore:gearBronze>, <*>.only(function(item) {
+//     return item.definition.owner == "prodigytech";
+// }));
 
 recipes.replaceAllOccurences(<minecraft:iron_nugget>, <ore:nuggetIron>, <*>.only(function(item) {
     return item.definition.owner == "factorytech";
@@ -296,33 +298,37 @@ recipes.replaceAllOccurences(<minecraft:dye:4>, <ore:gemFlawedQuartz>, <ore:arti
 
 recipes.replaceAllOccurences(<ore:string>, <pyrotech:material:32>, <ore:artisansGemCutter>);
 
-recipes.addShapeless("hot_air_solderer_trans_0", <contenttweaker:hot_air_solderer>,
-    [<contenttweaker:hot_air_solderer:*>, <prodigytech:heat_capacitor_0:*>.marked("c")], 
-    function(out, ins, info) {
-        return out.withDamage(max(0, 32000 - (12000 - ins.c.damage)));
-    }, null
-);
+// TODO: ProdigyTech is removed
+// recipes.addShapeless("hot_air_solderer_trans_0", <contenttweaker:hot_air_solderer>,
+//     [<contenttweaker:hot_air_solderer:*>, <prodigytech:heat_capacitor_0:*>.marked("c")], 
+//     function(out, ins, info) {
+//         return out.withDamage(max(0, 32000 - (12000 - ins.c.damage)));
+//     }, null
+// );
 
-recipes.addShapeless("hot_air_solderer_trans_1", <contenttweaker:hot_air_solderer>,
-    [<contenttweaker:hot_air_solderer:*>, <prodigytech:heat_capacitor_1:*>.marked("c")], 
-    function(out, ins, info) {
-        return out.withDamage(max(0, 32000 - (12000 - ins.c.damage) * 3));
-    }, null
-);
+// TODO: ProdigyTech is removed
+// recipes.addShapeless("hot_air_solderer_trans_1", <contenttweaker:hot_air_solderer>,
+//     [<contenttweaker:hot_air_solderer:*>, <prodigytech:heat_capacitor_1:*>.marked("c")], 
+//     function(out, ins, info) {
+//         return out.withDamage(max(0, 32000 - (12000 - ins.c.damage) * 3));
+//     }, null
+// );
 
-recipes.addShapeless("hot_air_solderer_trans_2", <contenttweaker:hot_air_solderer>,
-    [<contenttweaker:hot_air_solderer:*>, <prodigytech:heat_capacitor_2:*>.marked("c")], 
-    function(out, ins, info) {
-        return out.withDamage(max(0, 32000 - (12000 - ins.c.damage) * 5));
-    }, null
-);
+// TODO: ProdigyTech is removed
+// recipes.addShapeless("hot_air_solderer_trans_2", <contenttweaker:hot_air_solderer>,
+//     [<contenttweaker:hot_air_solderer:*>, <prodigytech:heat_capacitor_2:*>.marked("c")], 
+//     function(out, ins, info) {
+//         return out.withDamage(max(0, 32000 - (12000 - ins.c.damage) * 5));
+//     }, null
+// );
 
-recipes.addShapeless("hot_air_solderer_trans_3", <contenttweaker:hot_air_solderer>,
-    [<contenttweaker:hot_air_solderer:*>, <prodigytech:heat_capacitor_3:*>.marked("c")], 
-    function(out, ins, info) {
-        return out.withDamage(max(0, 32000 - (12000 - ins.c.damage) * 12));
-    }, null
-);
+// TODO: ProdigyTech is removed
+// recipes.addShapeless("hot_air_solderer_trans_3", <contenttweaker:hot_air_solderer>,
+//     [<contenttweaker:hot_air_solderer:*>, <prodigytech:heat_capacitor_3:*>.marked("c")], 
+//     function(out, ins, info) {
+//         return out.withDamage(max(0, 32000 - (12000 - ins.c.damage) * 12));
+//     }, null
+// );
 
 val ironAlloy as IIngredient = <ore:ingotConstructionAlloy>;
 

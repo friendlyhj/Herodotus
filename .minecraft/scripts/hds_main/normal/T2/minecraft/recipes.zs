@@ -45,7 +45,8 @@ RecipeUtils.recipeTweak(true, <artisanworktables:toolbox>, [
 	[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
 ]);
 
-RecipeUtils.recipeTweak(true, <contenttweaker:primordium_shard> * 32, [[<prodigytech:primordium>]]);
+// TODO: ProdigyTech is removed
+// RecipeUtils.recipeTweak(true, <contenttweaker:primordium_shard> * 32, [[<prodigytech:primordium>]]);
 
 RecipeUtils.recipeTweak(true, <factorytech:sluice>, [
 	[<pyrotech:material:23>, null, <pyrotech:material:23>],

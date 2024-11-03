@@ -24,17 +24,18 @@ RecipeBuilder.get("blacksmith")
   .addOutput(<minecraft:cauldron>)
   .create();
 
-RecipeBuilder.get("blacksmith")
-  .setShaped([
-    [null, <ore:gemFlawedQuartz>, <ore:ingotIron>],
-    [<ore:gemFlawedQuartz>, <ore:ingotIron>, <ore:gemFlawedQuartz>],
-    [<prodigytech:heat_capacitor_0:*>.marked("c"), <ore:gemFlawedQuartz>, null]])
-  .addTool(<ore:artisansHammer>, 50)
-  .addOutput(<contenttweaker:hot_air_solderer>)
-  .setRecipeFunction(function(out, ins, info) {
-    return out.withDamage(32000 - (12000 - ins.c.damage));
-  })
-  .create();
+// TODO: ProdigyTech is removed, new recipe is needed
+// RecipeBuilder.get("blacksmith")
+//   .setShaped([
+//     [null, <ore:gemFlawedQuartz>, <ore:ingotIron>],
+//     [<ore:gemFlawedQuartz>, <ore:ingotIron>, <ore:gemFlawedQuartz>],
+//     [<prodigytech:heat_capacitor_0:*>.marked("c"), <ore:gemFlawedQuartz>, null]])
+//   .addTool(<ore:artisansHammer>, 50)
+//   .addOutput(<contenttweaker:hot_air_solderer>)
+//   .setRecipeFunction(function(out, ins, info) {
+//     return out.withDamage(32000 - (12000 - ins.c.damage));
+//   })
+//   .create();
 
 // RecipeBuilder.get("blacksmith")
 //   .setShapeless([<minecraft:glass_pane>, <contenttweaker:astral_lens>, <ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>])
@@ -56,11 +57,12 @@ RecipeBuilder.get("blacksmith")
 //   .addOutput(<prodigytech:atomic_reshaper>)
 //   .create();
 
-RecipeBuilder.get("blacksmith")
-  .setShaped([
-    [<ore:ingotBronze>, <ore:obsidian>, <ore:ingotBronze>],
-    [<ore:ingotBronze>, <ore:enderpearl>, <ore:ingotBronze>]])
-  .addTool(<contenttweaker:hot_air_solderer>, 180)
-  .addOutput(<prodigytech:wormhole_funnel> * 2)
-  .create();
+// TODO: ProdigyTech is removed, new recipe is needed
+// RecipeBuilder.get("blacksmith")
+//   .setShaped([
+//     [<ore:ingotBronze>, <ore:obsidian>, <ore:ingotBronze>],
+//     [<ore:ingotBronze>, <ore:enderpearl>, <ore:ingotBronze>]])
+//   .addTool(<contenttweaker:hot_air_solderer>, 180)
+//   .addOutput(<prodigytech:wormhole_funnel> * 2)
+//   .create();
 }

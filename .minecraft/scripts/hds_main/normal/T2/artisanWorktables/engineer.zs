@@ -140,23 +140,26 @@ RecipeBuilder.get("engineer")
   .addOutput(<modularmachinery:blockfluidinputhatch>)
   .create();
 */
-RecipeBuilder.get("engineer")
-  .setShaped([
-    [<ore:ingotBronze>, <ore:gearBronze>, <ore:ingotBronze>],
-    [<pyrotech:material:5>, <prodigytech:air_funnel>, <pyrotech:material:5>],
-    [<pyrotech:material:5>, null, <pyrotech:material:5>]])
-  .addTool(<contenttweaker:hot_air_solderer>, 400)
-  .addOutput(<prodigytech:food_purifier>)
-  .create();
 
-RecipeBuilder.get("engineer")
-  .setShaped([
-    [<pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_block>, <ore:ingotBronze>],
-    [<ore:ingotGold>, <prodigytech:air_funnel>, <ore:ingotBronze>],
-    [<ore:gearBronze>, <prodigytech:primordium>, <ore:ingotBronze>]])
-  .addTool(<contenttweaker:hot_air_solderer>, 500)
-  .addOutput(<prodigytech:food_enricher>)
-  .create();
+// TODO: ProdigyTech is removed
+// RecipeBuilder.get("engineer")
+//   .setShaped([
+//     [<ore:ingotBronze>, <ore:gearBronze>, <ore:ingotBronze>],
+//     [<pyrotech:material:5>, <prodigytech:air_funnel>, <pyrotech:material:5>],
+//     [<pyrotech:material:5>, null, <pyrotech:material:5>]])
+//   .addTool(<contenttweaker:hot_air_solderer>, 400)
+//   .addOutput(<prodigytech:food_purifier>)
+//   .create();
+
+// TODO: ProdigyTech is removed
+// RecipeBuilder.get("engineer")
+//   .setShaped([
+//     [<pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_block>, <ore:ingotBronze>],
+//     [<ore:ingotGold>, <prodigytech:air_funnel>, <ore:ingotBronze>],
+//     [<ore:gearBronze>, <prodigytech:primordium>, <ore:ingotBronze>]])
+//   .addTool(<contenttweaker:hot_air_solderer>, 500)
+//   .addOutput(<prodigytech:food_enricher>)
+//   .create();
 
 RecipeBuilder.get("engineer")
   .setShaped([
@@ -185,14 +188,15 @@ RecipeBuilder.get("engineer")
   .addOutput(<magneticraft:relay>)
   .create();
 
-RecipeBuilder.get("engineer")
-  .setShaped([
-    [<ore:ingotBronze>, null, <ore:ingotBronze>],
-    [<ore:ingotBronze>, <factorytech:machinepart:90>, <ore:gearBronze>],
-    [<ore:ingotBronze>, null, <ore:ingotBronze>]])
-  .addTool(<contenttweaker:hot_air_solderer>, 400)
-  .addOutput(<prodigytech:automatic_crystal_cutter>)
-  .create();
+// TODO: ProdigyTech is removed
+// RecipeBuilder.get("engineer")
+//   .setShaped([
+//     [<ore:ingotBronze>, null, <ore:ingotBronze>],
+//     [<ore:ingotBronze>, <factorytech:machinepart:90>, <ore:gearBronze>],
+//     [<ore:ingotBronze>, null, <ore:ingotBronze>]])
+//   .addTool(<contenttweaker:hot_air_solderer>, 400)
+//   .addOutput(<prodigytech:automatic_crystal_cutter>)
+//   .create();
 
 // TODO: Astral Sorcery mod removed, new recipe needed
 // RecipeBuilder.get("engineer")
@@ -252,14 +256,15 @@ RecipeBuilder.get("engineer")
   .addOutput(<hdsutils:lithium_amalgam> * 2)
   .create();
 
-RecipeBuilder.get("engineer")
-  .setShaped([
-    [<ore:lightPlateBronze>, <ore:blockIronCompressed>, <ore:lightPlateBronze>],
-    [<prodigytech:primordium>, <prodigytech:primordium>, <prodigytech:primordium>],
-    [<ore:lightPlateBronze>, <ore:dustEnergion>, <ore:lightPlateBronze>]])
-  .addTool(<contenttweaker:hot_air_solderer>, 800)
-  .addOutput(<prodigytech:fuel_processor>)
-  .create();
+// TODO: ProdigyTech is removed
+// RecipeBuilder.get("engineer")
+//   .setShaped([
+//     [<ore:lightPlateBronze>, <ore:blockIronCompressed>, <ore:lightPlateBronze>],
+//     [<prodigytech:primordium>, <prodigytech:primordium>, <prodigytech:primordium>],
+//     [<ore:lightPlateBronze>, <ore:dustEnergion>, <ore:lightPlateBronze>]])
+//   .addTool(<contenttweaker:hot_air_solderer>, 800)
+//   .addOutput(<prodigytech:fuel_processor>)
+//   .create();
 
 RecipeBuilder.get("engineer")
   .setShaped([

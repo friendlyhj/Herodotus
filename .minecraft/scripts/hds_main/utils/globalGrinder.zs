@@ -9,9 +9,15 @@ function addGrinderRecipe(input as IIngredient, output as IIngredient) as void {
     val outputItem as IItemStack = IngredientHelper.getItem(output);
     if (input instanceof IOreDictEntry) {
         val od as IOreDictEntry = input;
-        mods.prodigytech.rotarygrinder.addRecipe(od, outputItem);
+        
+        // TODO: ProdigyTech is removed
+        // mods.prodigytech.rotarygrinder.addRecipe(od, outputItem);
+    
     } else {
-        mods.prodigytech.rotarygrinder.addRecipe(IngredientHelper.getItem(input), outputItem);
+        
+        // TODO: ProdigyTech is removed
+        // mods.prodigytech.rotarygrinder.addRecipe(IngredientHelper.getItem(input), outputItem);
+    
     }
     mods.factorytech.Grindstone.addRecipe(outputItem, input, true);
 }
