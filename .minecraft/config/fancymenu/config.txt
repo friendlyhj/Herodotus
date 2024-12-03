@@ -40,7 +40,7 @@ S:customgameintroskiptext = '';
 ##[minecraftwindow]
 
 [A minecraft restart is required after changing this value.]
-S:customwindowtitle = 'Herodotus (Dev Edition, GregTech Test Branch)';
+S:customwindowtitle = 'HerodotusAEo (Dev Edition, GregTech Test Branch)';
 [A minecraft restart is required after changing this value.]
 B:customwindowicon = 'true';
 
