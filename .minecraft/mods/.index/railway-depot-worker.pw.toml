@@ -1,0 +1,16 @@
+filename = 'RailwayDepotWorker-1.5.0+build.14.jar'
+name = 'Railway Depot Worker'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'c7400602ed9bef97f714a7d0bd9750993900d357'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5909954
+project-id = 1031521

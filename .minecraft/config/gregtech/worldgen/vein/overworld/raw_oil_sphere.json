@@ -1,8 +1,8 @@
 {
   "weight": 50,
   "density": 1.0,
-  "max_height": 40,
-  "min_height": 10,
+  "max_height": 0,
+  "min_height": 0,
   "priority": -100,
   "count_as_vein": false,
   "generation_predicate": "any",

@@ -1,0 +1,16 @@
+filename = 'funky-locomotion-1.12.2-1.1.2.jar'
+name = 'Funky Locomotion'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e3cd380517ed2d22902e541937dbf630e5ab0cf1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2599318
+project-id = 224190

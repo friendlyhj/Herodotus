@@ -1,0 +1,16 @@
+filename = 'railcraft-tweaker-0.3.0+build.4.jar'
+name = 'RailcraftTweaker'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'cb428e20f46d76fd08f6aa24e599b44ad22f33bc'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5294398
+project-id = 321136
