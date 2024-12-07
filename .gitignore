@@ -88,6 +88,7 @@
 !/.minecraft/mods/herodotusutils*.jar
 !/.minecraft/mods/.index/
 !/.minecraft/mods/.index/*.pw.toml
+!/.minecraft/mods/OpenTerrainGenerator/
 
 # cs file
 /runners/CurseforgeDownloader/CurseforgeDownloader/bin
