@@ -1,6 +1,9 @@
 filename = 'factorytech-1.7.2.jar'
 name = 'Factory Tech'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = '52d6e2f21299834bac451dfe9463c1cd790ecc9f'

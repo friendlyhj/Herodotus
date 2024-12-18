@@ -1,6 +1,9 @@
 filename = 'ManaVisualizer-r1.0-1.jar'
 name = 'ManaVisualizer'
 side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = '9a5aca32aa6b52a2e8a1fd450d8ca766fd65bf44'

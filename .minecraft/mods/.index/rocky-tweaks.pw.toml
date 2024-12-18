@@ -1,6 +1,9 @@
 filename = 'rockytweaks-1.12.2-0.6.1.jar'
 name = 'Rocky Tweaks'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
 
 [download]
 hash = 'd4be5ab211febc802bb599efa91c03cbf6069443'

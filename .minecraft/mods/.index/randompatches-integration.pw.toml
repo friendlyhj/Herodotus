@@ -1,6 +1,9 @@
 filename = 'rpintegration-1.12.2-1.5.1.0.jar'
 name = 'RandomPatches Integration'
 side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = '12f2bc581cdb5e72e3777208d793a92d0168ce64'

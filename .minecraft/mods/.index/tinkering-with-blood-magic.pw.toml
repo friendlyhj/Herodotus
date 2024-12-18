@@ -1,6 +1,9 @@
 filename = 'bloodtinker-1.0.5.jar'
 name = 'Tinkering with Blood Magic'
 side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = '4e636312c365af262ab8a291ad321b8a6dad1dde'

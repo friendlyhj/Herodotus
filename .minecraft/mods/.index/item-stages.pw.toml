@@ -1,6 +1,9 @@
 filename = 'ItemStages-1.12.2-2.0.51.jar'
 name = 'Item Stages'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'alpha'
 
 [download]
 hash = '5fe6908e513330cb657a8b54562c5ca9292a9a3e'

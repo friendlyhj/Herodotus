@@ -1,6 +1,9 @@
 filename = 'AdvancedRocketry-1.12.2-2.0.0-17.jar'
 name = 'Advanced Rocketry'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = '01c6b3b18ca0b61315346dfe06430d0867c646e5'

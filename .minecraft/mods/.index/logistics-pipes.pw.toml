@@ -1,6 +1,9 @@
 filename = 'logisticspipes-0.10.4.49.jar'
 name = 'Logistics Pipes'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
 
 [download]
 hash = 'd44623fb65cba55f2d096a09ba6cfe86c0da4676'

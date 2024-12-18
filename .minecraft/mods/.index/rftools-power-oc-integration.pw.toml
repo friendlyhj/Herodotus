@@ -1,6 +1,9 @@
 filename = 'rftpwr_oc-0.2.jar'
 name = 'RFTools Power / OC Integration'
 side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = '50c6801288a68e9735011a355b82576506f20d29'

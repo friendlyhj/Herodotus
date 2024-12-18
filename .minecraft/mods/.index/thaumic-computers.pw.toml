@@ -1,13 +1,16 @@
-filename = 'ThaumicComputers-MC1.12.2-0.5.1.jar'
+filename = 'ThaumicComputers-MC1.12.2-0.5.0.jar'
 name = 'Thaumic Computers'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '9b94fe37d4b61736a9c5e103b210ca57b92400d3'
+hash = '307f6e80b78878d83fa717202ad92a1eb41d7bfc'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 2777074
+file-id = 2775679
 project-id = 293768

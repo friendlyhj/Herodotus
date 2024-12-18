@@ -1,6 +1,9 @@
 filename = 'versioner-1.0.3.jar'
 name = 'Versioner'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
 
 [download]
 hash = '0adb29069f44117e233f624016125efe057e1fdc'

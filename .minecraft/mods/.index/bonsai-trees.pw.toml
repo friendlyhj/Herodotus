@@ -1,6 +1,9 @@
 filename = 'bonsaitrees-1.1.4-b170.jar'
 name = 'Bonsai Trees 3'
 side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = '7bab0859525fb9f2f64e81eb47b19ffa190feb3c'

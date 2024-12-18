@@ -1,6 +1,9 @@
 filename = 'iChunUtil-1.12.2-7.2.2.jar'
 name = 'iChunUtil'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = '2b53b0f9543c98adb0b89caa4da954a477259367'

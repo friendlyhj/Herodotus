@@ -1,6 +1,9 @@
 filename = 'LibVulpes-1.12.2-0.4.2-25-universal.jar'
 name = 'LibVulpes'
 side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = 'bb81db439fd13ce086e822cd5c31505543487b58'

@@ -1,6 +1,9 @@
 filename = 'findme-1.12.2-1.1.0.jar'
 name = 'FindMeAnyDurability'
 side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = '32af344f6a07e9150cea7c551e5617ce353353b3'

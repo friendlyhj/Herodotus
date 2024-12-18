@@ -1,6 +1,9 @@
 filename = 'LootTweaker-0.4.1+MC1.12.2.jar'
 name = 'LootTweaker'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = 'dd4f2a890e7169fe7e740e326228829ff496e2cb'

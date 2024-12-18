@@ -1,6 +1,9 @@
 filename = 'InitialInventory-3.0.0.jar'
 name = 'Initial Inventory'
 side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = '891d1eaa325c83a93f99619add74c5f1ffde0963'

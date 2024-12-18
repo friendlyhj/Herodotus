@@ -1,6 +1,9 @@
 filename = 'MekanismGenerators-1.12.2-9.8.3.390.jar'
 name = 'Mekanism Generators'
 side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = '6980bbbc9d18c5dea7e2242fe9d542da2d41c481'

@@ -1,6 +1,9 @@
 filename = 'railcraft-12.1.0-beta-8.jar'
 name = 'Railcraft'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
 
 [download]
 hash = '3f894220b478ac454b731642aaf118b3ac7097ae'

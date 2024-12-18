@@ -1,6 +1,9 @@
 filename = 'ocsensors-1.0.4-b23.jar'
 name = 'OC Sensors'
 side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = '1fdd0eaa621762e5d237cece7487b1f185d572d9'

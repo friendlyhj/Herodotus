@@ -1,6 +1,9 @@
 filename = 'corpsecomplex-1.12.2-1.0.12.0.jar'
 name = 'Corpse Complex'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = '9eaf0f7e33646774068755fd387e2fcd05e2d08d'

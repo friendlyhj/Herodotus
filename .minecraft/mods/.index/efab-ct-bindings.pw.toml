@@ -1,6 +1,9 @@
 filename = 'EFab-CT-Bindings-0.2.jar'
 name = 'EFab CT Bindings'
 side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = 'f991932ee40a2867d7c5a4f646db8bdc5d03498e'

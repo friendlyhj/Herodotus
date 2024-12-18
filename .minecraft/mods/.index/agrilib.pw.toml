@@ -1,6 +1,9 @@
 filename = 'infinitylib-1.12.0_oc_patch.jar'
 name = 'AgriLib'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = '22cc188e075a2ead59fbdef2297c3f52afa17d1d'

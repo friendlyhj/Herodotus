@@ -1,6 +1,9 @@
 filename = 'ReAuth-1.12-Forge-4.0.7.jar'
 name = 'ReAuth'
-side = 'both'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = 'faf758374f9ada273155f43d451829d8ec4c4bf0'

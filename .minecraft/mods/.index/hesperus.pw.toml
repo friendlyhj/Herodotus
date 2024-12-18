@@ -1,6 +1,9 @@
 filename = 'phosphor-1.12.2-0.2.9.3-SNAPSHOT.jar'
 name = 'Phosphor Lighting Engine'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
 
 [download]
 hash = 'ddeddd44e33fd636a6a36fbac001bbc91c518f19'

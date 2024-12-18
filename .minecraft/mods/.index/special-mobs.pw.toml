@@ -1,6 +1,9 @@
 filename = 'specialmobs-1.0.4_for_mc1.12.2.jar'
 name = 'Special Mobs'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = '9da80e3c81a9ed0577ca6989385e3dfe210aae79'

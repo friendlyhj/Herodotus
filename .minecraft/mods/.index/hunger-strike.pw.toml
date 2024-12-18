@@ -1,6 +1,9 @@
 filename = 'HungerStrike-1.12-1.0.8.jar'
 name = 'Hunger Strike'
 side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = 'c9d7293d46e212a4724c87bc95f54ed9d47bddd3'

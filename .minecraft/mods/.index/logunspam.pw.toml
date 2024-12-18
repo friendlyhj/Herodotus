@@ -1,6 +1,9 @@
 filename = 'LogUnSpam-1.0-1.12.jar'
 name = 'LogUnSpam'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = 'f568634151cf6dd8d54dc4d66ba447a1d15b39ba'

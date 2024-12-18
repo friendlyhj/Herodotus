@@ -1,6 +1,9 @@
 filename = 'OpenComputers-MC1.12.2-1.8.6+cd8851e.jar'
 name = 'OpenComputers'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = 'fbd297d36827876c67b00d574d5e1d341c15373e'

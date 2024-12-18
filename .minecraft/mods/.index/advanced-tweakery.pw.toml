@@ -1,6 +1,9 @@
 filename = 'AdvancedTweakery-1.2.jar'
 name = 'AdvancedTweakery'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = 'f334aed3f5eb6580e971bd8d6f1adfe39440fb9c'

@@ -1,6 +1,9 @@
 filename = 'JustEnoughEnergistics-1.12.2-1.0.8.jar'
 name = 'Just Enough Energistics (JEE)'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = 'df5038e7ce86968952fa4baa2ecad6f5329ade60'

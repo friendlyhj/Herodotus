@@ -1,6 +1,9 @@
 filename = 'DefaultOptions_1.12.2-9.2.8.jar'
 name = 'Default Options'
 side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = 'e3197fc44aa2f59897713a8889a5a56c0f8ccbf3'

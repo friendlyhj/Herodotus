@@ -1,6 +1,9 @@
 filename = 'powered-thingies-1.12.2-1.0.15.jar'
 name = 'Powered Thingies'
 side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
 
 [download]
 hash = '9a33750a36a3ed324a37f139bf467664f241f068'

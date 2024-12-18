@@ -1,6 +1,9 @@
 filename = 'roughmobsrevamped-1.12.2-2.3.23.jar'
 name = 'Rough Mobs Revamped'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = '86e955b1f06fa7ff368271e5e756556c8f00b51b'

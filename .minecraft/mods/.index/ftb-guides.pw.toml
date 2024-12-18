@@ -1,6 +1,9 @@
 filename = 'FTBGuides-2.0.0.52.jar'
 name = 'FTB Guides'
 side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = '2caf23c7057d14acaf838776bcca86a7332be085'

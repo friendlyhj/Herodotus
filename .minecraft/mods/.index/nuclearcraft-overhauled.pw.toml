@@ -1,6 +1,9 @@
 filename = 'nuclearcraft-1.12.2-2o.7.7.jar'
 name = 'NuclearCraft: Overhauled'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
 
 [download]
 hash = '54120cc6ce69e120da6dc22faa54cdd1ca14933b'

@@ -1,6 +1,9 @@
 filename = 'PackMode Menu OC Edition-1.jar'
 name = 'PackModeMenu OC Edition'
 side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = '017936e75ca60aa5561c85a5cc0a0afc4fa18e9d'

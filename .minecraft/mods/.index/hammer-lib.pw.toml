@@ -1,6 +1,9 @@
 filename = 'HammerLib-1.12.2-12.2.56.jar'
 name = 'Hammer Core'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = '2036bd2a22ac1846ea964ad957b923d146530396'

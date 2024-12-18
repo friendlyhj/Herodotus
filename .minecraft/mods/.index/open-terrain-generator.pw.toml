@@ -1,6 +1,9 @@
 filename = 'OpenTerrainGenerator-1.12.2-v9.5-R2.jar'
 name = 'Open Terrain Generator (OTG)'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = 'e0b00a4df17dc632a23361a161e8928df6c17fca'

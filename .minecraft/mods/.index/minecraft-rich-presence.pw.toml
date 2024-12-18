@@ -1,6 +1,9 @@
 filename = 'DiscordCraft-2.0.jar'
 name = 'DiscordCraft'
 side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = '26022451841bb04b8e9b3cc1ec3210d6cd0e350a'

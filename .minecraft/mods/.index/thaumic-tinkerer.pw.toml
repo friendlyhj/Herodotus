@@ -1,6 +1,9 @@
 filename = 'thaumictinkerer-1.12.2-5.0-620a0c5.jar'
 name = 'Thaumic Tinkerer'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
 
 [download]
 hash = 'a1aa3c6d895539c2d4cb8413ac1f54dddb4aff0f'

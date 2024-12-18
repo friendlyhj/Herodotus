@@ -1,6 +1,9 @@
 filename = 'torchmaster_1.12.2-1.8.5.0.jar'
 name = 'Torchmaster'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = '8bc4bae76967b025746768473462d446ee09f505'

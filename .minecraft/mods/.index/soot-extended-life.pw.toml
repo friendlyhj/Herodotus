@@ -1,6 +1,9 @@
 filename = 'soot_extended_life-1.11.0.jar'
 name = 'Soot Unofficial Extended Life'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
 
 [download]
 hash = '83b0abcd4ee0f23f71ab2b3eb87f812e4b093c66'

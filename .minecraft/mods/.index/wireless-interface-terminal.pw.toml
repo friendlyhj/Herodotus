@@ -1,6 +1,9 @@
 filename = 'WirelessInterfaceTerminal-1.12.2-1.0.2.jar'
 name = 'AE2 Wireless Interface Terminal'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
 
 [download]
 hash = '7196d55beb7a885972c2855782648447ad227c68'

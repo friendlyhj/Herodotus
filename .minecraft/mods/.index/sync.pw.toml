@@ -1,6 +1,9 @@
 filename = 'Sync-1.12.2-7.1.0.jar'
 name = 'Sync'
 side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = '325ccca4a1f2b52161acfcd31224aab3e8e6cf5a'

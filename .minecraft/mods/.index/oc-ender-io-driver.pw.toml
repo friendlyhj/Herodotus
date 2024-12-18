@@ -1,6 +1,9 @@
 filename = 'oceio-1.12.2-1.0.002.jar'
 name = 'OC Ender IO Driver'
 side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
 
 [download]
 hash = '6046445ce9554ac8c2fe4f6d69a159763f6ca13d'

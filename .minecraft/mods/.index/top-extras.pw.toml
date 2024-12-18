@@ -1,6 +1,9 @@
 filename = 'topextras-1.12.2-1.0.1.jar'
 name = 'TOP Extras'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = 'fdc3bbd18af4d2e8035b61e7e32b7bcde8f8e7c1'

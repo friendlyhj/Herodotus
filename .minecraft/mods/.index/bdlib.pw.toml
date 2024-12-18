@@ -1,6 +1,9 @@
 filename = 'bdlib-1.14.4.1-mc1.12.2.jar'
 name = 'BD Lib'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = '6cb8cb1edc2897cf30f5071b04c29a2482d2b109'

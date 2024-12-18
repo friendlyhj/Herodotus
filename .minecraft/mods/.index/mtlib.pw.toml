@@ -1,6 +1,9 @@
 filename = 'MTLib-3.0.7.jar'
 name = 'MTLib'
 side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = '7d2b9e97518dca1e9326fd347ba1eb93dec35999'

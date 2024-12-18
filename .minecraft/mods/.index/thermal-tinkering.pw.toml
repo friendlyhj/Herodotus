@@ -1,6 +1,9 @@
 filename = 'ThermalTinkering-1.12.2-2.0.1.jar'
 name = 'Thermal Tinkering'
 side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = 'ba227140831886b512cd5cec9459c1c23b6f92ce'

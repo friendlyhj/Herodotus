@@ -1,6 +1,9 @@
 filename = 'AIReducer-1.12.2-0.3.0.jar'
 name = 'AI Reducer'
 side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
 
 [download]
 hash = 'a68d2b0996e8146f4c4fa270d7100c496120bfd3'

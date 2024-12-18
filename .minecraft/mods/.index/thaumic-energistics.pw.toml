@@ -1,13 +1,16 @@
-filename = 'thaumicenergistics-2.2.4.jar'
+filename = 'thaumicenergistics-2.2.3.jar'
 name = 'Thaumic Energistics'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '03fe2f61a48e43b0eac4311671a0cec34d6ed90b'
+hash = 'a1dc2647e9d7a86d2752a97e4f20124b58744407'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 2915506
+file-id = 2750063
 project-id = 223666

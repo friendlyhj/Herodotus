@@ -1,6 +1,9 @@
 filename = 'randomportals-1.12.2-1.8.2.4.jar'
 name = 'RandomPortals'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = '0b2270dae5e71fce98bc10524538a316d5e75723'

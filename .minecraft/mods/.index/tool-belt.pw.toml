@@ -1,6 +1,9 @@
 filename = 'ToolBelt-1.12.2-1.9.14.jar'
 name = 'Tool Belt'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = '6a9078c5d0f9e92a9f66ded407cba4b48dadbdf8'

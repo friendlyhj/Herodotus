@@ -1,6 +1,9 @@
 filename = 'AuraControl-1.12.2-1.0.2.jar'
 name = 'AuraControl'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = '148781667e9f037d76f66fae7d24ad87a08e3ec4'

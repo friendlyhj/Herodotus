@@ -1,6 +1,9 @@
 filename = 'efab-0.2.0.jar'
 name = 'EFab'
 side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = '955f3f59e1c20026fce91957e1295b78f16b1837'

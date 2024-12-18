@@ -1,6 +1,9 @@
 filename = 'InfernalMobs-1.12.2.jar'
 name = "AtomicStryker's Infernal Mobs"
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = '7488bdece40a58107bf540034e5f4696fa491756'

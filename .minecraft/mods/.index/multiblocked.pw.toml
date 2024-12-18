@@ -1,6 +1,9 @@
 filename = 'multiblocked-0.8.8.jar'
 name = "Multiblock'd"
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = '3cfe7c3d5f80bc186145841abba528665399ee71'

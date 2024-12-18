@@ -1,6 +1,9 @@
 filename = 'MobStages-1.12.2-2.0.13.jar'
 name = 'Mob Stages'
 side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'alpha'
 
 [download]
 hash = '44751d75268438accb1581fffccad6e1c8ab6a2f'

@@ -1,6 +1,9 @@
 filename = 'LootTableTweaker-1.12.2-1.1.17.jar'
 name = 'LootTableTweaker'
 side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'alpha'
 
 [download]
 hash = 'ac5b5417d151da85d8e23779304d1f36ada3937d'

@@ -1,6 +1,9 @@
 filename = 'incorporeal-1.2.5.jar'
 name = 'Incorporeal'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = '418ea41214d61ce41413fb7b0622d3bb0c7dd31a'

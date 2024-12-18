@@ -1,6 +1,9 @@
 filename = 'ifoccompat-0.1.jar'
 name = 'Industrial Foregoing / OC Compat'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
 
 [download]
 hash = 'e872b75773eea791207730e09ad1f141a87f91ba'

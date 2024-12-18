@@ -1,6 +1,9 @@
 filename = 'tinkersoc-0.6.jar'
 name = 'OpenComputers Drivers for Tinkers Construct'
 side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = 'f58a26c9002cc8ac181c877bd4a5fd28707d2a04'

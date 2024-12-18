@@ -1,6 +1,9 @@
 filename = 'ULVCovers-1.12.2-2.8.0.jar'
 name = 'ULV Covers'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = '19624a33b2c8568fb215a2b7e651e2d96400189d'

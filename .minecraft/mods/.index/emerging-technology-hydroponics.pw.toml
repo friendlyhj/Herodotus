@@ -1,6 +1,9 @@
 filename = 'EmergingTechnology-1.12.2-1.3.26-alpha.jar'
 name = 'Emerging Technology'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'alpha'
 
 [download]
 hash = '938029063e73d4ab3b564aa37f6bf1a9230a42fa'

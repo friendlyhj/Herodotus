@@ -1,6 +1,9 @@
 filename = 'tc6aspects4jei-0.0.2a.jar'
 name = 'Thaumcraft 6 Aspects for JEI'
 side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = '0b72ee618362916608bfb756ec863380341623b1'

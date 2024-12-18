@@ -1,6 +1,9 @@
 filename = 'ocxnetdriver-1.0.3-b17.jar'
 name = 'OC XNet Driver'
 side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = 'c0168aa96831aa717f6c9339c991cba17ece7373'

@@ -1,6 +1,9 @@
 filename = 'QMD-1.4.1-1.12.2.jar'
 name = 'Quantum Minecraft Dynamics'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = '5a2137a724fdc6bf8fe55f8de1bf267457f0f931'

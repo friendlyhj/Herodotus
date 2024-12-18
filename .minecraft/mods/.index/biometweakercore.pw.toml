@@ -1,6 +1,9 @@
 filename = 'BiomeTweakerCore-1.12.2-1.0.39.jar'
 name = 'BiomeTweakerCore'
 side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = '13f6bc3c3ea4c4d8f1e8ac0db97a99bf23bd278b'

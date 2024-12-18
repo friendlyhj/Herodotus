@@ -1,6 +1,9 @@
 filename = 'aetherworks_extended_life-1.2.1.jar'
 name = 'Aetherworks Unofficial Extended Life'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = '29bbd92c9d0521c6c871b0442728c0cfb7078497'

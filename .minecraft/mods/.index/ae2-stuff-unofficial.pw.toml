@@ -1,6 +1,9 @@
 filename = 'ae2stuff-1.12.2-0.9.jar'
 name = 'AE2 Stuff Unofficial'
 side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = '496e74477ea7070f77eba1190d36c09bf35492f1'
