@@ -1,16 +1,17 @@
-filename = 'crafttweakerutils-0.6.jar'
+filename = 'crafttweakerutils-0.7.jar'
 name = 'CraftTweaker Utils'
 side = 'both'
-x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-loaders = []
 x-prismlauncher-mc-versions = [ '1.12.2' ]
 x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'crafttweakerutils-0.7.jar'
 
 [download]
-hash = '5ba32eaf8a09b619c384e3a1301387954f6e28c0'
+hash = '8e766e3ae36bf0d3f8d28d0b2309c9a46ddc9a69'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 2876571
+file-id = 3084399
 project-id = 303213

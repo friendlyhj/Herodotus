@@ -1,16 +1,17 @@
-filename = 'FTBUtilitiesBackups-1.0.0.5.jar'
+filename = 'FTBBackups-1.1.0.1.jar'
 name = 'FTB Backups (Forge)'
 side = 'both'
-x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-loaders = []
 x-prismlauncher-mc-versions = [ '1.12.2' ]
 x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'FTBBackups-1.1.0.1.jar'
 
 [download]
-hash = '65873a33da86cb919ff757164a092d4caecf4ec6'
+hash = '20ddf96ff380f1f3219305f2efc6742ab5999449'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 2749104
+file-id = 2819669
 project-id = 314904

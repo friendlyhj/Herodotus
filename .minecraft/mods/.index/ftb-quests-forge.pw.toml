@@ -1,16 +1,17 @@
-filename = 'FTBQuests-1.8.1.239.jar'
+filename = 'FTBQuests-1202.9.0.15.jar'
 name = 'FTB Quests (Forge)'
 side = 'both'
-x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-loaders = []
 x-prismlauncher-mc-versions = [ '1.12.2' ]
 x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'FTBQuests-1202.9.0.15.jar'
 
 [download]
-hash = 'e723faec4473143c8c88d6f4cabcc7fc3a7d341f'
+hash = '03413411b820e0fb91f36013aa5954dde3bc85e9'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 2961486
+file-id = 3156637
 project-id = 289412

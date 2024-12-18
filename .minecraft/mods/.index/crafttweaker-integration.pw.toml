@@ -1,16 +1,17 @@
-filename = 'ctintegration-1.7.2.jar'
+filename = 'ctintegration-1.8.0.jar'
 name = 'CraftTweaker Integration'
 side = 'both'
-x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-loaders = []
 x-prismlauncher-mc-versions = [ '1.12.2' ]
 x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'ctintegration-1.8.0.jar'
 
 [download]
-hash = '9780ac35771084de9fc79814deb4b98fd8a59843'
+hash = 'b833d3c1bcfe0936acad587b373846a451887c75'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 3211830
+file-id = 3311656
 project-id = 435298
